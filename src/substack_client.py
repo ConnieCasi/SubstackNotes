@@ -1,4 +1,5 @@
 import requests
+from urllib.parse import unquote
 
 
 class SubstackClient:
@@ -6,8 +7,11 @@ class SubstackClient:
 
     def __init__(self, session_cookie: str):
         self.session = requests.Session()
-        self.session.headers.update({"Content-Type": "application/json"})
-        self.session.cookies.set("substack.sid", session_cookie, domain=".substack.com")
+        self.session.headers.update({
+            "Content-Type": "application/json",
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        })
+        self.session.cookies.set("substack.sid", unquote(session_cookie), domain=".substack.com")
 
     @staticmethod
     def _text_to_prosemirror(text: str) -> list:
