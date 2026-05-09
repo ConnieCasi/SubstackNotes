@@ -1,0 +1,56 @@
+{
+  "processed_post_ids": [
+    "https://purifai.substack.com/p/why-ai-memory-isnt-a-database"
+  ],
+  "queue": [
+    {
+      "text": "\"Context is not a database\" \u2014 and every AI agent built like it is will break in production.",
+      "source_post_title": "Why AI Memory Isn't a Database",
+      "source_post_url": "https://purifai.substack.com/p/why-ai-memory-isnt-a-database",
+      "created_at": "2026-05-09T15:21:27.223590",
+      "posted_at": null
+    },
+    {
+      "text": "There's a specific dread that hits when your AI chatbot confidently tells a user something that used to be true.\n\nYou stored the memory. You retrieved it. The system worked exactly as designed.\n\nAnd yet it was wrong \u2014 because the user moved, or changed jobs, or corrected you three conversations ago and the correction never landed.\n\nThat feeling isn't a bug report. It's a gap between what \"memory\" means to a database and what it means to a person. Once you name it, you can't unsee it.",
+      "source_post_title": "Why AI Memory Isn't a Database",
+      "source_post_url": "https://purifai.substack.com/p/why-ai-memory-isnt-a-database",
+      "created_at": "2026-05-09T15:21:27.223608",
+      "posted_at": null
+    },
+    {
+      "text": "Most AI memory systems break at the same three moments:\n\n- A user changes a fact (\"I moved to Berlin\")\n- A user contradicts a previous fact (accidentally or not)\n- A user leaks sensitive data (credit cards, passwords, medical details)\n\nA vector database stores all three without blinking.\n\nIt won't flag the contradiction. Won't notice the superseded city. Won't catch the credit card number on the way in.\n\nRemember: storage is not the hard part. Policy is.",
+      "source_post_title": "Why AI Memory Isn't a Database",
+      "source_post_url": "https://purifai.substack.com/p/why-ai-memory-isnt-a-database",
+      "created_at": "2026-05-09T15:21:27.223619",
+      "posted_at": null
+    },
+    {
+      "text": "A user told an AI agent three things in one breath: \"I live in Istanbul. I'm moving to Berlin next month. My credit card is 1234-5678-9012-3456.\"\n\nSix months later, a naive system had them living in both cities simultaneously and a credit card sitting in plain text, ready to leak.\n\nSame input, different memory policies, completely different outcomes. The database was never the problem.",
+      "source_post_title": "Why AI Memory Isn't a Database",
+      "source_post_url": "https://purifai.substack.com/p/why-ai-memory-isnt-a-database",
+      "created_at": "2026-05-09T15:21:27.223627",
+      "posted_at": null
+    },
+    {
+      "text": "Hot take: vector databases didn't solve AI memory \u2014 they just made the real problem harder to see.\n\nEmbedding text and searching by meaning feels like intelligence. The demos are genuinely impressive.\n\nBut a vector database is a filing cabinet. It will store a contradiction right next to the fact it contradicts and retrieve both with equal confidence.\n\nThe teams shipping reliable AI agents aren't winning on storage. They're winning on the logic that decides what to update, what to retire, and what to block before it ever gets saved.",
+      "source_post_title": "Why AI Memory Isn't a Database",
+      "source_post_url": "https://purifai.substack.com/p/why-ai-memory-isnt-a-database",
+      "created_at": "2026-05-09T15:21:27.223631",
+      "posted_at": null
+    },
+    {
+      "text": "For a long time, I thought picking the right vector database was the memory problem to solve.\n\nPinecone vs. Weaviate vs. pgvector \u2014 I had opinions. Strong ones.\n\nThen I watched a production chatbot tell a user their old address after they'd corrected it twice, because the correction was stored but the original was never marked superseded.\n\nThe database was fine. The policy was missing. I stopped debating storage after that.",
+      "source_post_title": "Why AI Memory Isn't a Database",
+      "source_post_url": "https://purifai.substack.com/p/why-ai-memory-isnt-a-database",
+      "created_at": "2026-05-09T15:21:27.223633",
+      "posted_at": null
+    },
+    {
+      "text": "Most AI agents treat a user's memory like an append-only log \u2014 every new fact gets added, nothing gets retired.\n\nWhich means the longer someone uses your product, the more likely it is that two contradicting facts coexist in storage, and the model picks one at random.\n\nHere's what I actually want to know: when you're building with AI memory, are you handling fact updates explicitly \u2014 or are you hoping the retrieval step figures it out?",
+      "source_post_title": "Why AI Memory Isn't a Database",
+      "source_post_url": "https://purifai.substack.com/p/why-ai-memory-isnt-a-database",
+      "created_at": "2026-05-09T15:21:27.223634",
+      "posted_at": null
+    }
+  ]
+}
