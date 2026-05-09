@@ -1,4 +1,4 @@
-import cloudscraper
+import requests
 from urllib.parse import unquote
 
 
@@ -6,10 +6,11 @@ class SubstackClient:
     POST_NOTE_URL = "https://substack.com/api/v1/comment/feed"
 
     def __init__(self, session_cookie: str):
-        self.session = cloudscraper.create_scraper(
-            browser={"browser": "chrome", "platform": "darwin", "mobile": False}
-        )
-        self.session.headers.update({"Content-Type": "application/json"})
+        self.session = requests.Session()
+        self.session.headers.update({
+            "Content-Type": "application/json",
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        })
         self.session.cookies.set("substack.sid", unquote(session_cookie), domain=".substack.com")
 
     @staticmethod
@@ -26,7 +27,6 @@ class SubstackClient:
         return content
 
     def post_note(self, text: str) -> dict:
-
         body = {
             "bodyJson": {
                 "type": "doc",
