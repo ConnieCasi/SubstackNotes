@@ -39,5 +39,7 @@ class SubstackClient:
         }
 
         resp = self.session.post(self.POST_NOTE_URL, json=body)
-        resp.raise_for_status()
+        if not resp.ok:
+            print(f"HTTP {resp.status_code}: {resp.text[:500]}")
+            resp.raise_for_status()
         return resp.json()
