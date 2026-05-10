@@ -2,7 +2,7 @@ name: Post Note to Substack
 
 on:
   schedule:
-    - cron: "0 11 * * *"   # 11am UTC (noon London / 7am ET)
+    - cron: "0 1 * * *"    # 1am UTC (9pm ET / 2am London)
   workflow_dispatch:         # allow manual trigger
 
 permissions:
