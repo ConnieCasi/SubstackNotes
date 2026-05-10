@@ -8,7 +8,7 @@
       "source_post_title": "Why AI Memory Isn't a Database",
       "source_post_url": "https://purifai.substack.com/p/why-ai-memory-isnt-a-database",
       "created_at": "2026-05-09T15:21:27.223590",
-      "posted_at": null
+      "posted_at": "2026-05-10T14:51:53.178664"
     },
     {
       "text": "There's a specific dread that hits when your AI chatbot confidently tells a user something that used to be true.\n\nYou stored the memory. You retrieved it. The system worked exactly as designed.\n\nAnd yet it was wrong \u2014 because the user moved, or changed jobs, or corrected you three conversations ago and the correction never landed.\n\nThat feeling isn't a bug report. It's a gap between what \"memory\" means to a database and what it means to a person. Once you name it, you can't unsee it.",
