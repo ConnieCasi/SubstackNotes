@@ -16,18 +16,17 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      - run: pip install -r requirements.txt
+      - name: Install dependencies
+        run: |
+          python3 -m venv venv
+          venv/bin/pip install -r requirements.txt
 
       - name: Post next note
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           PURIFAI_FEED_URL: ${{ secrets.PURIFAI_FEED_URL }}
           SUBSTACK_SESSION_COOKIE: ${{ secrets.SUBSTACK_SESSION_COOKIE }}
-        run: python main.py post
+        run: venv/bin/python main.py post
 
       - name: Commit updated state
         run: |
