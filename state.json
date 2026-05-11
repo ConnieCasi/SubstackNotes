@@ -15,7 +15,7 @@
       "source_post_title": "Why AI Memory Isn't a Database",
       "source_post_url": "https://purifai.substack.com/p/why-ai-memory-isnt-a-database",
       "created_at": "2026-05-09T15:21:27.223608",
-      "posted_at": null
+      "posted_at": "2026-05-11T21:16:37.263611"
     },
     {
       "text": "Most AI memory systems break at the same three moments:\n\n- A user changes a fact (\"I moved to Berlin\")\n- A user contradicts a previous fact (accidentally or not)\n- A user leaks sensitive data (credit cards, passwords, medical details)\n\nA vector database stores all three without blinking.\n\nIt won't flag the contradiction. Won't notice the superseded city. Won't catch the credit card number on the way in.\n\nRemember: storage is not the hard part. Policy is.",
