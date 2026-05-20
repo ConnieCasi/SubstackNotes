@@ -1,6 +1,7 @@
 {
   "processed_post_ids": [
-    "https://purifai.substack.com/p/why-ai-memory-isnt-a-database"
+    "https://purifai.substack.com/p/why-ai-memory-isnt-a-database",
+    "https://purifai.substack.com/p/this-tiny-search-model-beat-one-17"
   ],
   "queue": [
     {
@@ -23,6 +24,55 @@
       "source_post_url": "https://purifai.substack.com/p/why-ai-memory-isnt-a-database",
       "created_at": "2026-05-09T15:21:27.223619",
       "posted_at": "2026-05-20T00:32:29.795701"
+    },
+    {
+      "text": "A 32-million-parameter model just beat one 17 times its size \u2014 not on one benchmark, on two.\n\nSize isn't intelligence. It never was.",
+      "source_post_title": "This Tiny Search Model Beat One 17 Times Bigger",
+      "source_post_url": "https://purifai.substack.com/p/this-tiny-search-model-beat-one-17",
+      "created_at": "2026-05-20T22:04:56.483208",
+      "posted_at": "2026-05-20T22:05:20.738219"
+    },
+    {
+      "text": "There's a specific frustration with AI search that nobody has named yet.\n\nYou type exactly what you mean. The results are... almost right. Close, but somehow off. Like the system understood your words but missed your point.\n\nThat's not a language problem. It's an architecture problem. Most search grabs 100 candidates fast and dirty, then a second model reorders them by actually comparing your question to each result side by side. When that second model is undertrained, you get \"almost.\"\n\nYou're not bad at searching. The judge was never taught to judge properly.",
+      "source_post_title": "This Tiny Search Model Beat One 17 Times Bigger",
+      "source_post_url": "https://purifai.substack.com/p/this-tiny-search-model-beat-one-17",
+      "created_at": "2026-05-20T22:04:56.483282",
+      "posted_at": null
+    },
+    {
+      "text": "Most people think search is one step. It's actually two, and the second one is everything.\n\nHere's how it works:\n\n- Pass 1: a fast model grabs 100 likely matches from millions. Quick, sloppy, good enough to shortlist.\n- Pass 2: a smarter model reads each of those 100 *next to* your question and reorders them.\n\nThe second model is why some search feels sharp and some feels like a shrug.\n\nRemember: the first model scans, the second one actually reads.",
+      "source_post_title": "This Tiny Search Model Beat One 17 Times Bigger",
+      "source_post_url": "https://purifai.substack.com/p/this-tiny-search-model-beat-one-17",
+      "created_at": "2026-05-20T22:04:56.483285",
+      "posted_at": null
+    },
+    {
+      "text": "Someone fed a 1.5-billion-parameter model 143 million question-document pairs and recorded every score it gave.\n\nThen they trained a 32-million-parameter model to copy those scores exactly \u2014 not just who was relevant, but *how* relevant, a number, not a yes or no.\n\nThat student model beat a 568-million-parameter model trained the old way on human labels.\n\nThe insight: human labels are expensive, binary, and often wrong. A good teacher scoring everything automatically beats a thousand people labeling a little.",
+      "source_post_title": "This Tiny Search Model Beat One 17 Times Bigger",
+      "source_post_url": "https://purifai.substack.com/p/this-tiny-search-model-beat-one-17",
+      "created_at": "2026-05-20T22:04:56.483288",
+      "posted_at": null
+    },
+    {
+      "text": "Hot take: the AI field's obsession with model size is actively slowing down useful progress.\n\nA 32-million-parameter reranker just outperformed a 568-million-parameter one on two separate benchmarks. Not once \u2014 consistently.\n\nThe difference wasn't scale. It was training data quality \u2014 143 million examples with nuanced scores instead of a few thousand human yes/no labels.\n\nEveryone's racing to build bigger. The teams quietly winning are focused on better signal, not more parameters.",
+      "source_post_title": "This Tiny Search Model Beat One 17 Times Bigger",
+      "source_post_url": "https://purifai.substack.com/p/this-tiny-search-model-beat-one-17",
+      "created_at": "2026-05-20T22:04:56.483307",
+      "posted_at": null
+    },
+    {
+      "text": "For a long time, I assumed human-labeled training data was the gold standard \u2014 humans know what's relevant, so humans should teach the model.\n\nTurns out that assumption has three quiet failures I never thought about: humans are slow, so you get too few examples. Labels are binary, so you lose all the nuance. And \"wrong\" answers sometimes aren't wrong \u2014 they just were never labeled, so the model gets punished for a good call.\n\nA teacher model scoring 143 million pairs automatically fixed all three at once.\n\nIt changed how I think about \"high quality data.\" Volume with nuance beats scarcity with human certainty.",
+      "source_post_title": "This Tiny Search Model Beat One 17 Times Bigger",
+      "source_post_url": "https://purifai.substack.com/p/this-tiny-search-model-beat-one-17",
+      "created_at": "2026-05-20T22:04:56.483311",
+      "posted_at": null
+    },
+    {
+      "text": "Distillation \u2014 training a small model to copy the scores of a large one \u2014 just produced a reranker that punches far above its weight class.\n\nThe technique isn't new. But the results keep getting harder to ignore: smaller, cheaper, faster models trained on richer signal outperforming bloated ones trained on sparse human labels.\n\nHere's what I'm genuinely unsure about:\n\nIs there a floor to how small these models can get before the quality finally breaks \u2014 or are we just not creative enough yet with how we train them?",
+      "source_post_title": "This Tiny Search Model Beat One 17 Times Bigger",
+      "source_post_url": "https://purifai.substack.com/p/this-tiny-search-model-beat-one-17",
+      "created_at": "2026-05-20T22:04:56.483313",
+      "posted_at": null
     },
     {
       "text": "A user told an AI agent three things in one breath: \"I live in Istanbul. I'm moving to Berlin next month. My credit card is 1234-5678-9012-3456.\"\n\nSix months later, a naive system had them living in both cities simultaneously and a credit card sitting in plain text, ready to leak.\n\nSame input, different memory policies, completely different outcomes. The database was never the problem.",
