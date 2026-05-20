@@ -22,7 +22,7 @@
       "source_post_title": "Why AI Memory Isn't a Database",
       "source_post_url": "https://purifai.substack.com/p/why-ai-memory-isnt-a-database",
       "created_at": "2026-05-09T15:21:27.223619",
-      "posted_at": null
+      "posted_at": "2026-05-20T00:32:29.795701"
     },
     {
       "text": "A user told an AI agent three things in one breath: \"I live in Istanbul. I'm moving to Berlin next month. My credit card is 1234-5678-9012-3456.\"\n\nSix months later, a naive system had them living in both cities simultaneously and a credit card sitting in plain text, ready to leak.\n\nSame input, different memory policies, completely different outcomes. The database was never the problem.",
