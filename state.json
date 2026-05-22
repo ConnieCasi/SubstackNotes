@@ -37,7 +37,7 @@
       "source_post_title": "This Tiny Search Model Beat One 17 Times Bigger",
       "source_post_url": "https://purifai.substack.com/p/this-tiny-search-model-beat-one-17",
       "created_at": "2026-05-20T22:04:56.483282",
-      "posted_at": null
+      "posted_at": "2026-05-22T19:52:01.341847"
     },
     {
       "text": "Most people think search is one step. It's actually two, and the second one is everything.\n\nHere's how it works:\n\n- Pass 1: a fast model grabs 100 likely matches from millions. Quick, sloppy, good enough to shortlist.\n- Pass 2: a smarter model reads each of those 100 *next to* your question and reorders them.\n\nThe second model is why some search feels sharp and some feels like a shrug.\n\nRemember: the first model scans, the second one actually reads.",
