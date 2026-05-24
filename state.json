@@ -44,7 +44,7 @@
       "source_post_title": "This Tiny Search Model Beat One 17 Times Bigger",
       "source_post_url": "https://purifai.substack.com/p/this-tiny-search-model-beat-one-17",
       "created_at": "2026-05-20T22:04:56.483285",
-      "posted_at": null
+      "posted_at": "2026-05-24T21:41:48.249950"
     },
     {
       "text": "Someone fed a 1.5-billion-parameter model 143 million question-document pairs and recorded every score it gave.\n\nThen they trained a 32-million-parameter model to copy those scores exactly \u2014 not just who was relevant, but *how* relevant, a number, not a yes or no.\n\nThat student model beat a 568-million-parameter model trained the old way on human labels.\n\nThe insight: human labels are expensive, binary, and often wrong. A good teacher scoring everything automatically beats a thousand people labeling a little.",
