@@ -65,7 +65,7 @@
       "source_post_title": "This Tiny Search Model Beat One 17 Times Bigger",
       "source_post_url": "https://purifai.substack.com/p/this-tiny-search-model-beat-one-17",
       "created_at": "2026-05-20T22:04:56.483311",
-      "posted_at": null
+      "posted_at": "2026-06-01T21:53:51.984390"
     },
     {
       "text": "Distillation \u2014 training a small model to copy the scores of a large one \u2014 just produced a reranker that punches far above its weight class.\n\nThe technique isn't new. But the results keep getting harder to ignore: smaller, cheaper, faster models trained on richer signal outperforming bloated ones trained on sparse human labels.\n\nHere's what I'm genuinely unsure about:\n\nIs there a floor to how small these models can get before the quality finally breaks \u2014 or are we just not creative enough yet with how we train them?",
