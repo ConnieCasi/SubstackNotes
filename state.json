@@ -58,7 +58,7 @@
       "source_post_title": "This Tiny Search Model Beat One 17 Times Bigger",
       "source_post_url": "https://purifai.substack.com/p/this-tiny-search-model-beat-one-17",
       "created_at": "2026-05-20T22:04:56.483307",
-      "posted_at": null
+      "posted_at": "2026-06-01T19:34:56.100895"
     },
     {
       "text": "For a long time, I assumed human-labeled training data was the gold standard \u2014 humans know what's relevant, so humans should teach the model.\n\nTurns out that assumption has three quiet failures I never thought about: humans are slow, so you get too few examples. Labels are binary, so you lose all the nuance. And \"wrong\" answers sometimes aren't wrong \u2014 they just were never labeled, so the model gets punished for a good call.\n\nA teacher model scoring 143 million pairs automatically fixed all three at once.\n\nIt changed how I think about \"high quality data.\" Volume with nuance beats scarcity with human certainty.",
