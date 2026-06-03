@@ -72,7 +72,7 @@
       "source_post_title": "This Tiny Search Model Beat One 17 Times Bigger",
       "source_post_url": "https://purifai.substack.com/p/this-tiny-search-model-beat-one-17",
       "created_at": "2026-05-20T22:04:56.483313",
-      "posted_at": null
+      "posted_at": "2026-06-03T23:02:19.364817"
     },
     {
       "text": "A user told an AI agent three things in one breath: \"I live in Istanbul. I'm moving to Berlin next month. My credit card is 1234-5678-9012-3456.\"\n\nSix months later, a naive system had them living in both cities simultaneously and a credit card sitting in plain text, ready to leak.\n\nSame input, different memory policies, completely different outcomes. The database was never the problem.",
