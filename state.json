@@ -79,7 +79,7 @@
       "source_post_title": "Why AI Memory Isn't a Database",
       "source_post_url": "https://purifai.substack.com/p/why-ai-memory-isnt-a-database",
       "created_at": "2026-05-09T15:21:27.223627",
-      "posted_at": null
+      "posted_at": "2026-06-04T20:22:12.343795"
     },
     {
       "text": "Hot take: vector databases didn't solve AI memory \u2014 they just made the real problem harder to see.\n\nEmbedding text and searching by meaning feels like intelligence. The demos are genuinely impressive.\n\nBut a vector database is a filing cabinet. It will store a contradiction right next to the fact it contradicts and retrieve both with equal confidence.\n\nThe teams shipping reliable AI agents aren't winning on storage. They're winning on the logic that decides what to update, what to retire, and what to block before it ever gets saved.",
