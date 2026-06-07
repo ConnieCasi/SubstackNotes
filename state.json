@@ -136,7 +136,7 @@
       "source_post_title": "Why AI Memory Isn't a Database",
       "source_post_url": "https://purifai.substack.com/p/why-ai-memory-isnt-a-database",
       "created_at": "2026-05-09T15:21:27.223631",
-      "posted_at": null
+      "posted_at": "2026-06-07T18:14:45.970315"
     },
     {
       "text": "For a long time, I thought picking the right vector database was the memory problem to solve.\n\nPinecone vs. Weaviate vs. pgvector \u2014 I had opinions. Strong ones.\n\nThen I watched a production chatbot tell a user their old address after they'd corrected it twice, because the correction was stored but the original was never marked superseded.\n\nThe database was fine. The policy was missing. I stopped debating storage after that.",
