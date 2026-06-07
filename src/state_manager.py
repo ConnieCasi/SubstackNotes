@@ -61,12 +61,20 @@ def mark_post_processed(state: State, post_id: str) -> None:
 
 
 def add_notes_to_queue(state: State, notes: List[str], post_title: str, post_url: str) -> None:
-    for text in notes:
-        state.queue.append(QueuedNote(
+    new_notes = [
+        QueuedNote(
             text=text,
             source_post_title=post_title,
             source_post_url=post_url,
-        ))
+        )
+        for text in notes
+    ]
+
+    first_pending_index = next(
+        (index for index, note in enumerate(state.queue) if not note.is_posted),
+        len(state.queue),
+    )
+    state.queue[first_pending_index:first_pending_index] = new_notes
 
 
 def next_pending_note(state: State) -> Optional[QueuedNote]:

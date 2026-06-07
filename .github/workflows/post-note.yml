@@ -25,6 +25,12 @@ jobs:
           python3 -m venv venv
           venv/bin/pip install -r requirements.txt
 
+      - name: Fetch latest notes
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PURIFAI_FEED_URL: ${{ secrets.PURIFAI_FEED_URL }}
+        run: venv/bin/python main.py fetch
+
       - name: Post next note
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
