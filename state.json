@@ -1,7 +1,8 @@
 {
   "processed_post_ids": [
     "https://purifai.substack.com/p/why-ai-memory-isnt-a-database",
-    "https://purifai.substack.com/p/this-tiny-search-model-beat-one-17"
+    "https://purifai.substack.com/p/this-tiny-search-model-beat-one-17",
+    "https://purifai.substack.com/p/when-ai-learns-something-new-it-forgets"
   ],
   "queue": [
     {
@@ -80,6 +81,55 @@
       "source_post_url": "https://purifai.substack.com/p/why-ai-memory-isnt-a-database",
       "created_at": "2026-05-09T15:21:27.223627",
       "posted_at": "2026-06-04T20:22:12.343795"
+    },
+    {
+      "text": "Every AI you're using right now has anterograde amnesia, and the companies shipping it consider that a feature.",
+      "source_post_title": "When AI Learns Something New, It Forgets Something Old. The Fix Is Sleep.",
+      "source_post_url": "https://purifai.substack.com/p/when-ai-learns-something-new-it-forgets",
+      "created_at": "2026-06-07T18:13:28.809600",
+      "posted_at": "2026-06-07T18:13:53.060855"
+    },
+    {
+      "text": "There's a specific frustration that comes from explaining something important to an AI \u2014 context, preferences, a key fact \u2014 and then watching it disappear the moment you close the tab.\n\nYou're not imagining it. The model literally cannot hold onto it.\n\nIt's not a bug they forgot to fix. Current AI has no path from \"things you just told it\" to \"things it actually knows.\" Those two stores are completely separated.\n\nThe frustration you feel isn't about a bad product. It's about a fundamental architectural wall. And knowing that changes what you ask AI to do for you today.",
+      "source_post_title": "When AI Learns Something New, It Forgets Something Old. The Fix Is Sleep.",
+      "source_post_url": "https://purifai.substack.com/p/when-ai-learns-something-new-it-forgets",
+      "created_at": "2026-06-07T18:13:28.809619",
+      "posted_at": null
+    },
+    {
+      "text": "Most people don't know AI has two completely separate memories.\n\nHere's the split:\n\n- **Short-term:** your current conversation \u2014 fast, useful, gone the second you close it\n- **Long-term:** everything baked in during training \u2014 vast, stable, frozen at release\n\nThere's no bridge between them.\n\nA new fact you share today will never become something the model \"knows.\" It just borrows it for the hour.\n\nRemember: teaching an AI in conversation isn't teaching. It's reminding.",
+      "source_post_title": "When AI Learns Something New, It Forgets Something Old. The Fix Is Sleep.",
+      "source_post_url": "https://purifai.substack.com/p/when-ai-learns-something-new-it-forgets",
+      "created_at": "2026-06-07T18:13:28.809621",
+      "posted_at": null
+    },
+    {
+      "text": "A researcher spent a year taking notes on sticky paper.\n\nEvery night, someone cleared the desk. Every morning, she started from scratch with nothing but what she remembered before the job began.\n\nThat's the current state of AI memory \u2014 and a Google team thinks the fix is letting the model sleep.",
+      "source_post_title": "When AI Learns Something New, It Forgets Something Old. The Fix Is Sleep.",
+      "source_post_url": "https://purifai.substack.com/p/when-ai-learns-something-new-it-forgets",
+      "created_at": "2026-06-07T18:13:28.809622",
+      "posted_at": null
+    },
+    {
+      "text": "Hot take: \"just keep training AI on new data\" is not a solution \u2014 it's the problem restated.\n\nTeaching a model new facts overwrites old ones. It's called catastrophic forgetting, and it's not a solvable edge case. It's a direct consequence of how these systems store knowledge.\n\nEvery team promising \"continuously updated\" AI is quietly fighting this tradeoff, usually losing, and rarely telling you which old capability got degraded to make room for the new one.",
+      "source_post_title": "When AI Learns Something New, It Forgets Something Old. The Fix Is Sleep.",
+      "source_post_url": "https://purifai.substack.com/p/when-ai-learns-something-new-it-forgets",
+      "created_at": "2026-06-07T18:13:28.809623",
+      "posted_at": null
+    },
+    {
+      "text": "Used to think AI memory was a product decision \u2014 that companies just chose not to let models remember you between sessions.\n\nTurns out it's architectural. A model cannot store new information after training ends. That boundary is structural, not a setting someone could toggle.\n\nIt changed how I evaluate AI tools entirely. When a product claims to \"learn your preferences,\" I now ask: where, exactly, is that being stored \u2014 and is it actually the model, or just a database bolted on the side?",
+      "source_post_title": "When AI Learns Something New, It Forgets Something Old. The Fix Is Sleep.",
+      "source_post_url": "https://purifai.substack.com/p/when-ai-learns-something-new-it-forgets",
+      "created_at": "2026-06-07T18:13:28.809624",
+      "posted_at": null
+    },
+    {
+      "text": "Google just published research where an AI improves itself during a \"sleep\" phase \u2014 generating its own practice problems, grading its own answers, and integrating new knowledge without human input.\n\nNo human labeling. No new training data. The model does its own homework in the dark.\n\nIf this approach scales, the line between \"training time\" and \"using the model\" effectively disappears.\n\nHere's what I'm genuinely uncertain about: do you *want* the AI tools you use to update themselves continuously \u2014 or does that unpredictability make them harder to trust?",
+      "source_post_title": "When AI Learns Something New, It Forgets Something Old. The Fix Is Sleep.",
+      "source_post_url": "https://purifai.substack.com/p/when-ai-learns-something-new-it-forgets",
+      "created_at": "2026-06-07T18:13:28.809625",
+      "posted_at": null
     },
     {
       "text": "Hot take: vector databases didn't solve AI memory \u2014 they just made the real problem harder to see.\n\nEmbedding text and searching by meaning feels like intelligence. The demos are genuinely impressive.\n\nBut a vector database is a filing cabinet. It will store a contradiction right next to the fact it contradicts and retrieve both with equal confidence.\n\nThe teams shipping reliable AI agents aren't winning on storage. They're winning on the logic that decides what to update, what to retire, and what to block before it ever gets saved.",
