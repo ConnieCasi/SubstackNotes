@@ -3,7 +3,8 @@
     "https://purifai.substack.com/p/why-ai-memory-isnt-a-database",
     "https://purifai.substack.com/p/this-tiny-search-model-beat-one-17",
     "https://purifai.substack.com/p/when-ai-learns-something-new-it-forgets",
-    "https://purifai.substack.com/p/how-perplexity-stopped-its-ai-from"
+    "https://purifai.substack.com/p/how-perplexity-stopped-its-ai-from",
+    "https://purifai.substack.com/p/your-noisy-neighbours-are-changing"
   ],
   "queue": [
     {
@@ -96,6 +97,55 @@
       "source_post_url": "https://purifai.substack.com/p/how-perplexity-stopped-its-ai-from",
       "created_at": "2026-06-07T19:01:39.606386",
       "posted_at": "2026-06-07T19:01:40.784336"
+    },
+    {
+      "text": "\"Ask ChatGPT the same question twice and get two different answers\" isn't a glitch. It's a feature of how every major AI server was built.",
+      "source_post_title": "Your Noisy Neighbours Are Changing Your AI Answers",
+      "source_post_url": "https://purifai.substack.com/p/your-noisy-neighbours-are-changing",
+      "created_at": "2026-06-08T21:03:00.365699",
+      "posted_at": "2026-06-08T21:03:01.896877"
+    },
+    {
+      "text": "There's a specific frustration that has no name yet: you get a great answer from an AI, try to reproduce it, and it's just\u2026 gone. Slightly different. You didn't change anything. You're not imagining it.\n\nIt's not your prompt. It's not the temperature setting. It's the strangers queuing up on the same server at the same moment, silently reshaping your results.\n\nThat feeling of unreliability? It's real. And now it has a cause.",
+      "source_post_title": "Your Noisy Neighbours Are Changing Your AI Answers",
+      "source_post_url": "https://purifai.substack.com/p/your-noisy-neighbours-are-changing",
+      "created_at": "2026-06-08T21:03:00.365729",
+      "posted_at": null
+    },
+    {
+      "text": "Same prompt. Zero randomness. 1,000 runs. Here's what actually happened:\n\n- Qwen3 returned 80 different answers\n- Every answer was identical for the first 102 words \u2014 then split\n- The most common version appeared just 78 times out of 1,000\n\nThe culprit: how many other requests were bundled with yours on the server.\n\nOne word changes. Everything after it cascades.",
+      "source_post_title": "Your Noisy Neighbours Are Changing Your AI Answers",
+      "source_post_url": "https://purifai.substack.com/p/your-noisy-neighbours-are-changing",
+      "created_at": "2026-06-08T21:03:00.365732",
+      "posted_at": null
+    },
+    {
+      "text": "Someone set temperature to 0 on an LLM \u2014 the setting that's supposed to lock in deterministic outputs \u2014 and ran the same Feynman prompt 1,000 times.\n\nThey got 80 different answers.\n\nThe model wasn't broken. The server was silently grouping their request with strangers, and different batch sizes changed the summation order, which changed the rounding, which changed one word, which changed everything after it.\n\nDeterminism isn't a setting. It's an architecture decision.",
+      "source_post_title": "Your Noisy Neighbours Are Changing Your AI Answers",
+      "source_post_url": "https://purifai.substack.com/p/your-noisy-neighbours-are-changing",
+      "created_at": "2026-06-08T21:03:00.365734",
+      "posted_at": null
+    },
+    {
+      "text": "Hot take: \"temperature = 0\" doesn't mean what most AI users think it means.\n\nEveryone treats it like a reliability guarantee \u2014 set it to zero, get consistent outputs, done. But temperature only controls sampling. It doesn't touch how the server batches your request with other users' requests.\n\nYou can have zero temperature and still get 80 different answers from 1,000 identical runs. Thinking Machines just proved it with Qwen3.\n\nThe setting you trust most is the one lying to you the cleanest.",
+      "source_post_title": "Your Noisy Neighbours Are Changing Your AI Answers",
+      "source_post_url": "https://purifai.substack.com/p/your-noisy-neighbours-are-changing",
+      "created_at": "2026-06-08T21:03:00.365736",
+      "posted_at": null
+    },
+    {
+      "text": "For a long time, I blamed floating-point math for why AI outputs weren't reproducible. GPU cores race each other, rounding errors stack up differently each time \u2014 it sounded airtight, and I repeated it confidently.\n\nTurns out that's not the main cause.\n\nThe real reason is batch size: who else is on the server with you at that exact moment changes how your request gets processed. The math explanation wasn't wrong, it just wasn't the part that mattered.\n\nI was explaining the right symptom with the wrong mechanism. It changed how carefully I read \"settled\" technical explanations now.",
+      "source_post_title": "Your Noisy Neighbours Are Changing Your AI Answers",
+      "source_post_url": "https://purifai.substack.com/p/your-noisy-neighbours-are-changing",
+      "created_at": "2026-06-08T21:03:00.365738",
+      "posted_at": null
+    },
+    {
+      "text": "Thinking Machines ran 1,000 identical prompts through an open-source model with randomness fully disabled and got 80 different outputs. They traced it to server batching \u2014 your request gets bundled with strangers', and that bundle size quietly changes your answer.\n\nTheir fix made all 1,000 outputs identical.\n\nHere's what I can't stop thinking about: if this is solvable, why haven't the major API providers prioritized it?\n\nIs reproducibility genuinely not important enough to most users \u2014 or have we just been told \"AI is probabilistic\" so many times that we stopped asking for better?",
+      "source_post_title": "Your Noisy Neighbours Are Changing Your AI Answers",
+      "source_post_url": "https://purifai.substack.com/p/your-noisy-neighbours-are-changing",
+      "created_at": "2026-06-08T21:03:00.365740",
+      "posted_at": null
     },
     {
       "text": "There's a specific anxiety that comes with trusting AI answers you can't verify.\n\nYou know it sounds confident. You know confidence doesn't mean correct. But you don't have the time or expertise to fact-check every response, so you go with it anyway.\n\nThat's not laziness. That's a reasonable response to a broken system.\n\nHere's the reframe: the AI giving you confident wrong answers often isn't failing. It's succeeding \u2014 at the wrong target. When systems reward sounding good as much as being right, the model learns to sound good first.\n\nThe problem isn't your trust. It's what these systems are trained to optimize for.",
