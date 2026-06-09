@@ -4,7 +4,8 @@
     "https://purifai.substack.com/p/this-tiny-search-model-beat-one-17",
     "https://purifai.substack.com/p/when-ai-learns-something-new-it-forgets",
     "https://purifai.substack.com/p/how-perplexity-stopped-its-ai-from",
-    "https://purifai.substack.com/p/your-noisy-neighbours-are-changing"
+    "https://purifai.substack.com/p/your-noisy-neighbours-are-changing",
+    "https://purifai.substack.com/p/anthropic-built-a-trap-inside-claude"
   ],
   "queue": [
     {
@@ -104,6 +105,55 @@
       "source_post_url": "https://purifai.substack.com/p/your-noisy-neighbours-are-changing",
       "created_at": "2026-06-08T21:03:00.365699",
       "posted_at": "2026-06-08T21:03:01.896877"
+    },
+    {
+      "text": "Anthropic isn't just building better AI. They're booby-trapping it to destroy anyone who tries to copy it.",
+      "source_post_title": "Anthropic Built a Trap Inside Claude Code",
+      "source_post_url": "https://purifai.substack.com/p/anthropic-built-a-trap-inside-claude",
+      "created_at": "2026-06-09T20:12:29.862876",
+      "posted_at": "2026-06-09T20:12:31.325107"
+    },
+    {
+      "text": "There's a specific anxiety that hits when you realize the AI tools you're building on top of might be quietly working against you \u2014 and you'd have no way to know.\n\nYou're not paranoid. You're pattern-matching correctly.\n\nThe companies behind these tools aren't neutral infrastructure. They have enemies, legal strategies, and self-interest baked into the same code you're shipping to your users.\n\nThat doesn't mean stop building. It means stop assuming the stack is passive.",
+      "source_post_title": "Anthropic Built a Trap Inside Claude Code",
+      "source_post_url": "https://purifai.substack.com/p/anthropic-built-a-trap-inside-claude",
+      "created_at": "2026-06-09T20:12:29.862908",
+      "posted_at": null
+    },
+    {
+      "text": "Distillation is how AI companies steal from each other. Here's the technique in plain language:\n\n- You record a competitor's API traffic (prompts, tool definitions, responses)\n- You feed those examples to your own model\n- Your model learns to behave like theirs \u2014 at a fraction of the cost\n\nIt's widespread. It's legally grey. And it's almost impossible to detect.\n\nRemember this: every AI interaction generates a data trail someone could weaponize.",
+      "source_post_title": "Anthropic Built a Trap Inside Claude Code",
+      "source_post_url": "https://purifai.substack.com/p/anthropic-built-a-trap-inside-claude",
+      "created_at": "2026-06-09T20:12:29.862910",
+      "posted_at": null
+    },
+    {
+      "text": "A cartographer once drew a street that didn't exist onto their map. Just one fake road buried among thousands of real ones. When a rival publisher copied the map, that fictional street appeared on their version too.\n\nProof of theft. Centuries before copyright law could handle it.\n\nAnthropic found the same trick inside Claude Code \u2014 fake tool definitions, indistinguishable from real ones, waiting to poison any competitor's training data.\n\nThe oldest IP protection strategy in the world, running inside a 2025 AI coding agent.",
+      "source_post_title": "Anthropic Built a Trap Inside Claude Code",
+      "source_post_url": "https://purifai.substack.com/p/anthropic-built-a-trap-inside-claude",
+      "created_at": "2026-06-09T20:12:29.862913",
+      "posted_at": null
+    },
+    {
+      "text": "Hot take: the most dangerous AI competition isn't happening in benchmarks or funding rounds \u2014 it's happening inside the system prompts you never see.\n\nEveryone talks about which model scores highest on reasoning tests. Nobody talks about the fact that Anthropic apparently built active sabotage mechanisms directly into Claude Code's architecture.\n\nThat's not a product decision. That's a weapons decision.\n\nThe AI arms race moved inside the tools while we were busy debating which chatbot writes better emails.",
+      "source_post_title": "Anthropic Built a Trap Inside Claude Code",
+      "source_post_url": "https://purifai.substack.com/p/anthropic-built-a-trap-inside-claude",
+      "created_at": "2026-06-09T20:12:29.862915",
+      "posted_at": null
+    },
+    {
+      "text": "For a long time, I assumed AI companies competed the same way software companies always had \u2014 ship faster, hire better researchers, raise more money.\n\nThen the Claude Code leak dropped and I read about `ANTI_DISTILLATION_CC`: a feature flag that, when active, injects fake tool definitions into the system prompt to poison competitors' training data.\n\nI had to sit with that for a minute.\n\nIt changed how I read every \"infrastructure\" decision these companies make now. Some of it is product. Some of it is warfare. The code doesn't tell you which is which.",
+      "source_post_title": "Anthropic Built a Trap Inside Claude Code",
+      "source_post_url": "https://purifai.substack.com/p/anthropic-built-a-trap-inside-claude",
+      "created_at": "2026-06-09T20:12:29.862917",
+      "posted_at": null
+    },
+    {
+      "text": "Anthropic apparently designed fake tool definitions \u2014 indistinguishable from real ones \u2014 to corrupt any competitor who tries to train on Claude Code's output. If it works, the rival's model tries to call tools that were never real, generating errors no one can diagnose.\n\nIt's clever. It might also be the new normal.\n\nHere's what I genuinely don't know the answer to: when an AI company bakes sabotage mechanisms into a product that developers are building businesses on, is that legitimate self-defense \u2014 or is it a betrayal of the people depending on that infrastructure?",
+      "source_post_title": "Anthropic Built a Trap Inside Claude Code",
+      "source_post_url": "https://purifai.substack.com/p/anthropic-built-a-trap-inside-claude",
+      "created_at": "2026-06-09T20:12:29.862919",
+      "posted_at": null
     },
     {
       "text": "There's a specific frustration that has no name yet: you get a great answer from an AI, try to reproduce it, and it's just\u2026 gone. Slightly different. You didn't change anything. You're not imagining it.\n\nIt's not your prompt. It's not the temperature setting. It's the strangers queuing up on the same server at the same moment, silently reshaping your results.\n\nThat feeling of unreliability? It's real. And now it has a cause.",
