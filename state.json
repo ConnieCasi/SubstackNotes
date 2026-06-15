@@ -5,7 +5,8 @@
     "https://purifai.substack.com/p/when-ai-learns-something-new-it-forgets",
     "https://purifai.substack.com/p/how-perplexity-stopped-its-ai-from",
     "https://purifai.substack.com/p/your-noisy-neighbours-are-changing",
-    "https://purifai.substack.com/p/anthropic-built-a-trap-inside-claude"
+    "https://purifai.substack.com/p/anthropic-built-a-trap-inside-claude",
+    "https://purifai.substack.com/p/the-code-around-the-code"
   ],
   "queue": [
     {
@@ -112,6 +113,55 @@
       "source_post_url": "https://purifai.substack.com/p/anthropic-built-a-trap-inside-claude",
       "created_at": "2026-06-09T20:12:29.862876",
       "posted_at": "2026-06-09T20:12:31.325107"
+    },
+    {
+      "text": "The harness is the product. The AI is just the engine.",
+      "source_post_title": "The Code Around the Code",
+      "source_post_url": "https://purifai.substack.com/p/the-code-around-the-code",
+      "created_at": "2026-06-15T21:23:38.964009",
+      "posted_at": "2026-06-15T21:23:40.225169"
+    },
+    {
+      "text": "There's a specific anxiety that hits when you realize the AI tool you've been using isn't really \"the AI\" \u2014 it's a thousand invisible rules someone else wrote, deciding what the AI does, when it stops, and what it's allowed to remember.\n\nYou're not using the technology. You're using someone's *opinion* about the technology.\n\nThat's not necessarily bad. But it's worth knowing.\n\nThe actual AI is just an engine. What you interact with every day is the chassis someone built around it. And that chassis is quietly becoming the most important part.",
+      "source_post_title": "The Code Around the Code",
+      "source_post_url": "https://purifai.substack.com/p/the-code-around-the-code",
+      "created_at": "2026-06-15T21:23:38.964038",
+      "posted_at": null
+    },
+    {
+      "text": "Most AI tools fail on long tasks for one specific reason.\n\nHere's what's actually happening:\n\n- AI has a working memory (called a context window)\n- The longer a task runs, the more noise fills that memory\n- More noise = more hallucinations = more broken code\n- Smart tools periodically compress old history to clear that noise\n\nThe one thing to remember: AI isn't getting dumber mid-task. It's getting louder. The best tools treat that noise like a problem to solve, not a feature to ignore.",
+      "source_post_title": "The Code Around the Code",
+      "source_post_url": "https://purifai.substack.com/p/the-code-around-the-code",
+      "created_at": "2026-06-15T21:23:38.964041",
+      "posted_at": null
+    },
+    {
+      "text": "A security researcher finds a public URL in an npm package. No password. Just a link to 512,000 lines of source code sitting in cloud storage.\n\nHe tweets it. Within hours, developers worldwide are forking it, reading it, picking it apart.\n\nWhat they found wasn't the AI's brain \u2014 that was never exposed. It was the scaffolding wrapped around the brain: the rules, the memory tricks, the guardrails. The thing nobody talks about. The thing that actually makes the product work.",
+      "source_post_title": "The Code Around the Code",
+      "source_post_url": "https://purifai.substack.com/p/the-code-around-the-code",
+      "created_at": "2026-06-15T21:23:38.964043",
+      "posted_at": null
+    },
+    {
+      "text": "Hot take: the AI model you're using matters less than you think.\n\nEveryone obsesses over benchmarks \u2014 which model scores highest, which company's AI is \"smartest.\" But the leaked Claude Code source shows that most of the real engineering isn't in the model at all.\n\nIt's in 1,900 files of scaffolding code telling the AI how to behave, what to remember, and when to stop.\n\nTwo companies can run the same underlying model and ship wildly different products. The moat isn't the AI. It's what you build around it.",
+      "source_post_title": "The Code Around the Code",
+      "source_post_url": "https://purifai.substack.com/p/the-code-around-the-code",
+      "created_at": "2026-06-15T21:23:38.964045",
+      "posted_at": null
+    },
+    {
+      "text": "Used to think AI coding tools got worse over long sessions because the model was hitting some kind of limit.\n\nTurns out I had the causality backwards.\n\nIt's not that the model runs out of power \u2014 it's that the context window fills up with noise, and most tools do nothing about it. The model starts \"remembering\" things it hallucinated three exchanges ago and treats them as facts.\n\nThe fix exists. It's called context compression. It's been in Claude Code's codebase the whole time.\n\nThat changed how I think about every AI tool I use: the question isn't how powerful is the model \u2014 it's how carefully is someone managing its memory.",
+      "source_post_title": "The Code Around the Code",
+      "source_post_url": "https://purifai.substack.com/p/the-code-around-the-code",
+      "created_at": "2026-06-15T21:23:38.964047",
+      "posted_at": null
+    },
+    {
+      "text": "Anthropic accidentally leaked 512,000 lines of code showing exactly how Claude Code works under the hood. Not the AI itself \u2014 the scaffolding wrapped around it.\n\nOne feature caught everyone's attention: an \"always-on\" background mode that runs scheduled tasks every five minutes, responds to GitHub events automatically, and includes a `/dream` command that consolidates memory while you're not using it.\n\nSo here's what I'm genuinely unsure about: do you actually want an AI coding assistant running continuously in the background without you actively prompting it \u2014 or does that cross a line?",
+      "source_post_title": "The Code Around the Code",
+      "source_post_url": "https://purifai.substack.com/p/the-code-around-the-code",
+      "created_at": "2026-06-15T21:23:38.964049",
+      "posted_at": null
     },
     {
       "text": "There's a specific anxiety that hits when you realize the AI tools you're building on top of might be quietly working against you \u2014 and you'd have no way to know.\n\nYou're not paranoid. You're pattern-matching correctly.\n\nThe companies behind these tools aren't neutral infrastructure. They have enemies, legal strategies, and self-interest baked into the same code you're shipping to your users.\n\nThat doesn't mean stop building. It means stop assuming the stack is passive.",
