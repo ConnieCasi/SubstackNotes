@@ -77,9 +77,24 @@ def add_notes_to_queue(state: State, notes: List[str], post_title: str, post_url
     state.queue[first_pending_index:first_pending_index] = new_notes
 
 
-def next_pending_note(state: State) -> Optional[QueuedNote]:
+def latest_post_url(state: State) -> Optional[str]:
+    return state.processed_post_ids[-1] if state.processed_post_ids else None
+
+
+def pending_notes(state: State, source_post_url: Optional[str] = None) -> List[QueuedNote]:
+    return [
+        note for note in state.queue
+        if not note.is_posted
+        and (source_post_url is None or note.source_post_url == source_post_url)
+    ]
+
+
+def next_pending_note(state: State, source_post_url: Optional[str] = None) -> Optional[QueuedNote]:
     for note in state.queue:
-        if not note.is_posted:
+        if (
+            not note.is_posted
+            and (source_post_url is None or note.source_post_url == source_post_url)
+        ):
             return note
     return None
 
