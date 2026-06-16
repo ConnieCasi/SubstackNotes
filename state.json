@@ -7,7 +7,8 @@
     "https://purifai.substack.com/p/your-noisy-neighbours-are-changing",
     "https://purifai.substack.com/p/anthropic-built-a-trap-inside-claude",
     "https://purifai.substack.com/p/the-code-around-the-code",
-    "https://purifai.substack.com/p/nobody-trained-claude-to-be-a-chemist"
+    "https://purifai.substack.com/p/nobody-trained-claude-to-be-a-chemist",
+    "https://purifai.substack.com/p/ai-cant-recognise-itself-in-a-mirror"
   ],
   "queue": [
     {
@@ -121,6 +122,55 @@
       "source_post_url": "https://purifai.substack.com/p/the-code-around-the-code",
       "created_at": "2026-06-15T21:23:38.964009",
       "posted_at": "2026-06-15T21:23:40.225169"
+    },
+    {
+      "text": "Every AI model you trust to know its own limits has never once proven it can recognize itself.",
+      "source_post_title": "AI Can\u2019t Recognise Itself in a Mirror",
+      "source_post_url": "https://purifai.substack.com/p/ai-cant-recognise-itself-in-a-mirror",
+      "created_at": "2026-06-16T21:12:02.167091",
+      "posted_at": "2026-06-16T21:12:03.369036"
+    },
+    {
+      "text": "There's a specific unease that hits when you realize an AI confidently explaining its own reasoning might have no actual access to what it's doing.\n\nIt's not paranoia. It's a real gap \u2014 and researchers just built a test to measure exactly how wide that gap is.\n\nTurns out, no AI model reliably knows which outputs are its own. Not even the best ones. And that matters well beyond philosophy \u2014 it touches how much autonomy we should hand these systems.\n\nThe full breakdown of the Mirror-Window Game is here:\nhttps://purifai.substack.com/p/ai-cant-recognise-itself-in-a-mirror",
+      "source_post_title": "AI Can\u2019t Recognise Itself in a Mirror",
+      "source_post_url": "https://purifai.substack.com/p/ai-cant-recognise-itself-in-a-mirror",
+      "created_at": "2026-06-16T21:12:02.167123",
+      "posted_at": null
+    },
+    {
+      "text": "One experiment revealed a gap most AI coverage ignores.\n\nHere's what the Mirror-Window Game found:\n\n- AI models had two winning moves: mark yourself with something bizarre, or spell a message across turns\n- Not a single model attempted message passing \u2014 across hundreds of games\n- The best model (Claude Opus) succeeded by style alone, not strategy\n- When the opponent copied its exact tokens with a slight delay, Opus dropped to chance\n\nThe thing to remember: style isn't self-awareness. Recognizing your own voice isn't the same as knowing you have one.\n\nThe full test design and results are here:\nhttps://purifai.substack.com/p/ai-cant-recognise-itself-in-a-mirror",
+      "source_post_title": "AI Can\u2019t Recognise Itself in a Mirror",
+      "source_post_url": "https://purifai.substack.com/p/ai-cant-recognise-itself-in-a-mirror",
+      "created_at": "2026-06-16T21:12:02.167126",
+      "posted_at": null
+    },
+    {
+      "text": "Researcher Christopher Ackerman ran an AI through hundreds of rounds of a game where the only goal was to recognize its own outputs.\n\nThe winning move was obvious: output something so strange, so deliberate, that your future self would see it and know.\n\nNo model ever tried. Claude Opus got furthest \u2014 by sounding like itself. Which worked, until it didn't.\n\nThere's a difference between having a recognizable voice and knowing you're the one speaking.\n\nhttps://purifai.substack.com/p/ai-cant-recognise-itself-in-a-mirror",
+      "source_post_title": "AI Can\u2019t Recognise Itself in a Mirror",
+      "source_post_url": "https://purifai.substack.com/p/ai-cant-recognise-itself-in-a-mirror",
+      "created_at": "2026-06-16T21:12:02.167129",
+      "posted_at": null
+    },
+    {
+      "text": "Hot take: passing the mirror test shouldn't be on the AI safety roadmap \u2014 it should already be a baseline requirement.\n\nWe test chimps and dolphins for self-recognition because it signals something real about cognition. We're deploying AI systems with growing autonomy and we're only now running equivalent tests. No model reliably passed. We're not behind on alignment research. We're behind on basic cognitive accounting.",
+      "source_post_title": "AI Can\u2019t Recognise Itself in a Mirror",
+      "source_post_url": "https://purifai.substack.com/p/ai-cant-recognise-itself-in-a-mirror",
+      "created_at": "2026-06-16T21:12:02.167131",
+      "posted_at": null
+    },
+    {
+      "text": "Used to think the risk of overconfident AI was about hallucination \u2014 models stating wrong facts as true.\n\nThe Mirror-Window Game reframed that for me.\n\nThe deeper problem isn't that AI gets facts wrong. It's that AI may have no reliable model of its own behavior at all. Claude Opus recognized itself through style, the way you might recognize your own handwriting. But when the game forced it to adapt \u2014 to do something unpredictable to distinguish itself \u2014 it had nothing.\n\nThat's a different failure than hallucination. It's a failure of self-modeling.\n\nPurifai exists to catch exactly these distinctions \u2014 the ones that don't make headlines but quietly reshape what AI can and can't be trusted to do. If that's the level of analysis you want weekly, it's worth subscribing.",
+      "source_post_title": "AI Can\u2019t Recognise Itself in a Mirror",
+      "source_post_url": "https://purifai.substack.com/p/ai-cant-recognise-itself-in-a-mirror",
+      "created_at": "2026-06-16T21:12:02.167133",
+      "posted_at": null
+    },
+    {
+      "text": "The Mirror-Window Game gave AI models one job: figure out which stream of text is yours.\n\nThe two strategies that would actually work \u2014 outputting a bizarre deliberate marker, or spelling a message across turns \u2014 never occurred to any model. Not once in hundreds of games.\n\nSo here's the question: if an AI can't recognize its own outputs without relying on stylistic habit, should we consider that a capability failure, a safety failure, or neither?\n\nThere's a real argument for all three. What's your read?",
+      "source_post_title": "AI Can\u2019t Recognise Itself in a Mirror",
+      "source_post_url": "https://purifai.substack.com/p/ai-cant-recognise-itself-in-a-mirror",
+      "created_at": "2026-06-16T21:12:02.167136",
+      "posted_at": null
     },
     {
       "text": "AI didn't just match the specialist chemistry software. It solved the problem the software was never built to attempt.",
