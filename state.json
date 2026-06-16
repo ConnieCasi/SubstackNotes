@@ -6,7 +6,8 @@
     "https://purifai.substack.com/p/how-perplexity-stopped-its-ai-from",
     "https://purifai.substack.com/p/your-noisy-neighbours-are-changing",
     "https://purifai.substack.com/p/anthropic-built-a-trap-inside-claude",
-    "https://purifai.substack.com/p/the-code-around-the-code"
+    "https://purifai.substack.com/p/the-code-around-the-code",
+    "https://purifai.substack.com/p/nobody-trained-claude-to-be-a-chemist"
   ],
   "queue": [
     {
@@ -120,6 +121,55 @@
       "source_post_url": "https://purifai.substack.com/p/the-code-around-the-code",
       "created_at": "2026-06-15T21:23:38.964009",
       "posted_at": "2026-06-15T21:23:40.225169"
+    },
+    {
+      "text": "AI didn't just match the specialist chemistry software. It solved the problem the software was never built to attempt.",
+      "source_post_title": "Nobody Trained Claude to Be a Chemist. It Matched the Software Anyway.",
+      "source_post_url": "https://purifai.substack.com/p/nobody-trained-claude-to-be-a-chemist",
+      "created_at": "2026-06-16T11:25:34.963383",
+      "posted_at": null
+    },
+    {
+      "text": "There's a specific frustration in watching a $500/year niche tool get outperformed by a chatbot you already pay for.\n\nIt's not that the old tool was bad. It's that it was designed for one narrow direction \u2014 and nobody ever questioned whether there was another direction worth going.\n\nThat's the part that stings. Not the replacement. The assumption that went unchallenged for forty years.\n\nClaude read molecular data backwards. The specialist software doesn't even try. The full breakdown of what that means \u2014 and what it implies about every other \"niche\" tool in your field:\n\nhttps://purifai.substack.com/p/nobody-trained-claude-to-be-a-chemist",
+      "source_post_title": "Nobody Trained Claude to Be a Chemist. It Matched the Software Anyway.",
+      "source_post_url": "https://purifai.substack.com/p/nobody-trained-claude-to-be-a-chemist",
+      "created_at": "2026-06-16T11:25:34.963403",
+      "posted_at": null
+    },
+    {
+      "text": "How Claude matched chemistry software it was never trained on:\n\n- It predicted hydrogen peaks to \u00b10.079 ppm \u2014 less than half the margin chemists allow for error\n- It predicted peak splitting (a structural detail) correctly ~80% of the time. ChemDraw managed 26\u201335%\n- It then ran the problem *backwards* \u2014 reconstructing a molecule from its spectrum alone, something the specialist software doesn't do at all\n\nThe one thing to remember: Claude's advantage wasn't memorization. Every molecule tested was published after its training cutoff.\n\nThe full numbers, and what this means for how we think about \"specialized\" AI:\n\nhttps://purifai.substack.com/p/nobody-trained-claude-to-be-a-chemist",
+      "source_post_title": "Nobody Trained Claude to Be a Chemist. It Matched the Software Anyway.",
+      "source_post_url": "https://purifai.substack.com/p/nobody-trained-claude-to-be-a-chemist",
+      "created_at": "2026-06-16T11:25:34.963404",
+      "posted_at": null
+    },
+    {
+      "text": "Chemists can't see molecules. They shine energy at them and read the pattern that bounces back \u2014 a spectrum, like a shadow.\n\nFor forty years, software has done one thing with that shadow: predicted what it should look like, given a known molecule.\n\nClaude looked at the shadow and reconstructed the object. That's not an incremental improvement. That's a different problem entirely \u2014 and nobody had built a tool cheap enough, or flexible enough, to attempt it.\n\nhttps://purifai.substack.com/p/nobody-trained-claude-to-be-a-chemist",
+      "source_post_title": "Nobody Trained Claude to Be a Chemist. It Matched the Software Anyway.",
+      "source_post_url": "https://purifai.substack.com/p/nobody-trained-claude-to-be-a-chemist",
+      "created_at": "2026-06-16T11:25:34.963405",
+      "posted_at": null
+    },
+    {
+      "text": "Hot take: \"specialized AI\" is becoming a marketing story more than a technical reality.\n\nThe standard argument is that general models are impressive but you need domain-specific training for serious work. Chemistry, law, medicine \u2014 pick your field.\n\nAnthropic tested Claude against ChemDraw and MestReNova, the tools chemists actually use professionally. No chemistry fine-tuning. Claude tied or won on standard tasks, then outperformed on a task the specialist tools weren't built to handle.\n\nThe moat isn't specialization anymore. It's knowing which direction to push a general model \u2014 and most people haven't figured that out yet.",
+      "source_post_title": "Nobody Trained Claude to Be a Chemist. It Matched the Software Anyway.",
+      "source_post_url": "https://purifai.substack.com/p/nobody-trained-claude-to-be-a-chemist",
+      "created_at": "2026-06-16T11:25:34.963406",
+      "posted_at": null
+    },
+    {
+      "text": "Used to think AI beating specialist software meant the AI had been trained on that specialty.\n\nI was wrong about that, and Anthropic's Claude experiment is what changed my mind.\n\nClaude matched ChemDraw and MestReNova on NMR prediction \u2014 a chemistry task requiring precise numerical accuracy \u2014 with no chemistry-specific training. Every molecule tested was published after its training cutoff, so memorization isn't the explanation.\n\nWhat changed for me: I stopped asking \"was this model trained on my domain?\" and started asking \"what reasoning does this problem actually require?\"\n\nThat's the question Purifai keeps coming back to \u2014 not which AI tool is newest, but which questions we're not asking about the ones we already have. If that lens is useful to you, the subscription is worth it.",
+      "source_post_title": "Nobody Trained Claude to Be a Chemist. It Matched the Software Anyway.",
+      "source_post_url": "https://purifai.substack.com/p/nobody-trained-claude-to-be-a-chemist",
+      "created_at": "2026-06-16T11:25:34.963435",
+      "posted_at": null
+    },
+    {
+      "text": "Claude reconstructed molecular structures from spectral data alone \u2014 a task that usually requires a trained chemist, specialized software, and a two-dimensional scan.\n\nIt did it with a 1D spectrum and a molecular formula.\n\nThe question I keep sitting with: if a general model can perform at expert level on a domain it was never specifically trained for, where does the line between \"AI tool\" and \"AI expert\" actually sit?\n\nIs there one? Or are we drawing that line mostly to make ourselves feel better about the tools we've already paid for?",
+      "source_post_title": "Nobody Trained Claude to Be a Chemist. It Matched the Software Anyway.",
+      "source_post_url": "https://purifai.substack.com/p/nobody-trained-claude-to-be-a-chemist",
+      "created_at": "2026-06-16T11:25:34.963440",
+      "posted_at": null
     },
     {
       "text": "There's a specific anxiety that hits when you realize the AI tool you've been using isn't really \"the AI\" \u2014 it's a thousand invisible rules someone else wrote, deciding what the AI does, when it stops, and what it's allowed to remember.\n\nYou're not using the technology. You're using someone's *opinion* about the technology.\n\nThat's not necessarily bad. But it's worth knowing.\n\nThe actual AI is just an engine. What you interact with every day is the chassis someone built around it. And that chassis is quietly becoming the most important part.",
