@@ -8,7 +8,8 @@
     "https://purifai.substack.com/p/anthropic-built-a-trap-inside-claude",
     "https://purifai.substack.com/p/the-code-around-the-code",
     "https://purifai.substack.com/p/nobody-trained-claude-to-be-a-chemist",
-    "https://purifai.substack.com/p/ai-cant-recognise-itself-in-a-mirror"
+    "https://purifai.substack.com/p/ai-cant-recognise-itself-in-a-mirror",
+    "https://purifai.substack.com/p/six-people-just-beat-google-at-ai"
   ],
   "queue": [
     {
@@ -129,6 +130,55 @@
       "source_post_url": "https://purifai.substack.com/p/ai-cant-recognise-itself-in-a-mirror",
       "created_at": "2026-06-16T21:12:02.167091",
       "posted_at": "2026-06-16T21:12:03.369036"
+    },
+    {
+      "text": "Six people just beat Google at AI reasoning without building a single model of their own.",
+      "source_post_title": "Six People Just Beat Google at AI Reasoning. They Don\u2019t Even Have Their Own Model.",
+      "source_post_url": "https://purifai.substack.com/p/six-people-just-beat-google-at-ai",
+      "created_at": "2026-06-17T20:35:21.252600",
+      "posted_at": "2026-06-17T20:35:23.235226"
+    },
+    {
+      "text": "There's a specific kind of frustration that doesn't have a name yet.\n\nYou've spent months integrating AI into your workflow. You picked the right tools. You followed the tutorials. And the results are... fine. Sometimes good. Rarely transformative.\n\nYou start to wonder if you're doing something wrong, or if the hype was always hollow.\n\nYou're not wrong. And the hype isn't entirely hollow either.\n\nThe problem is that nobody taught the AI how to think through your problem. They just handed you the brain and expected you to figure out the coaching.\n\nThat's exactly what Poetiq figured out \u2014 and why six people just outscored Google on one of the hardest AI benchmarks in the world.\n\nhttps://purifai.substack.com/p/six-people-just-beat-google-at-ai",
+      "source_post_title": "Six People Just Beat Google at AI Reasoning. They Don\u2019t Even Have Their Own Model.",
+      "source_post_url": "https://purifai.substack.com/p/six-people-just-beat-google-at-ai",
+      "created_at": "2026-06-17T20:35:21.252667",
+      "posted_at": null
+    },
+    {
+      "text": "Why 95% of enterprise AI deployments return nothing (MIT, 300 companies):\n\n- The models aren't the problem\n- The questions being asked are\n- Better prompting helps, but it's not enough\n- What's missing is a structured reasoning layer above the model\n\nThe one thing to remember: the knowledge is already in the model. The bottleneck is how you extract it.\n\nThe full breakdown of how Poetiq built exactly that layer \u2014 and beat Google doing it:\n\nhttps://purifai.substack.com/p/six-people-just-beat-google-at-ai",
+      "source_post_title": "Six People Just Beat Google at AI Reasoning. They Don\u2019t Even Have Their Own Model.",
+      "source_post_url": "https://purifai.substack.com/p/six-people-just-beat-google-at-ai",
+      "created_at": "2026-06-17T20:35:21.252668",
+      "posted_at": null
+    },
+    {
+      "text": "A client hands Poetiq a hard problem and 200 examples.\n\nTraditional AI fine-tuning would need millions of examples and weeks of compute. Poetiq builds a specialised agent in hours \u2014 one that loops, self-critiques, and decides on its own when to stop.\n\nOn average, fewer than two queries per problem. On ARC-AGI-2, 54% accuracy. Half the cost of the previous leader.\n\nThe insight isn't that they built something smarter. It's that smarter was never the point.\n\nhttps://purifai.substack.com/p/six-people-just-beat-google-at-ai",
+      "source_post_title": "Six People Just Beat Google at AI Reasoning. They Don\u2019t Even Have Their Own Model.",
+      "source_post_url": "https://purifai.substack.com/p/six-people-just-beat-google-at-ai",
+      "created_at": "2026-06-17T20:35:21.252670",
+      "posted_at": null
+    },
+    {
+      "text": "Hot take: the AI model you're using isn't your bottleneck. Your questions are.\n\nEveryone's obsessed with which frontier model is best \u2014 GPT-5.2 vs. Gemini vs. Claude. It's the wrong race to watch.\n\nPoetiq ran the same Gemini and GPT models everyone else has access to. No proprietary training. No secret weights.\n\nThey just built a better way to ask. And they beat Google.\n\nThe model arms race is real, but the reasoning strategy gap is bigger \u2014 and almost nobody is talking about it.",
+      "source_post_title": "Six People Just Beat Google at AI Reasoning. They Don\u2019t Even Have Their Own Model.",
+      "source_post_url": "https://purifai.substack.com/p/six-people-just-beat-google-at-ai",
+      "created_at": "2026-06-17T20:35:21.252671",
+      "posted_at": null
+    },
+    {
+      "text": "For a long time, I thought better AI results came from better models.\n\nSo I chased every new release. Switched tools constantly. Assumed the next version would finally close the gap between what AI promised and what it actually delivered.\n\nWhat I got wrong: the model was rarely the ceiling. The ceiling was how the problem got handed to the model in the first place.\n\nPoetiq didn't build a new model. They built a coaching layer that structures how existing models reason. Six employees. $45.8 million in seed funding. Benchmark scores that beat Google.\n\nThat's the kind of story Purifai exists to track \u2014 not the headline, but the mechanism underneath it.\n\nIf you want to understand AI well enough to make real decisions with it, not just follow the hype, Purifai is worth subscribing to.",
+      "source_post_title": "Six People Just Beat Google at AI Reasoning. They Don\u2019t Even Have Their Own Model.",
+      "source_post_url": "https://purifai.substack.com/p/six-people-just-beat-google-at-ai",
+      "created_at": "2026-06-17T20:35:21.252672",
+      "posted_at": null
+    },
+    {
+      "text": "Poetiq's meta-system beat Google's best AI on abstract reasoning without touching the underlying model. It just changed how the model approached the problem.\n\nThat's a result that challenges something a lot of AI builders take for granted: that capability gains come from model improvements, not from reasoning architecture.\n\nSo here's the question that doesn't have a clean answer:\n\nIf a coaching layer consistently outperforms a smarter model at lower cost \u2014 at what point does improving the model stop being the most valuable investment? And who actually wins that world: the labs building the models, or the companies building on top of them?",
+      "source_post_title": "Six People Just Beat Google at AI Reasoning. They Don\u2019t Even Have Their Own Model.",
+      "source_post_url": "https://purifai.substack.com/p/six-people-just-beat-google-at-ai",
+      "created_at": "2026-06-17T20:35:21.252673",
+      "posted_at": null
     },
     {
       "text": "There's a specific unease that hits when you realize an AI confidently explaining its own reasoning might have no actual access to what it's doing.\n\nIt's not paranoia. It's a real gap \u2014 and researchers just built a test to measure exactly how wide that gap is.\n\nTurns out, no AI model reliably knows which outputs are its own. Not even the best ones. And that matters well beyond philosophy \u2014 it touches how much autonomy we should hand these systems.\n\nThe full breakdown of the Mirror-Window Game is here:\nhttps://purifai.substack.com/p/ai-cant-recognise-itself-in-a-mirror",
