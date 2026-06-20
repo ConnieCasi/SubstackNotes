@@ -4,7 +4,7 @@ Purifai → Substack Notes funnel.
 
 Commands:
   fetch      Check Purifai RSS for new posts and generate notes into the queue
-  post       Post the next pending note from the latest article (run via cron)
+  post       Post the next pending note from the newest article with queued notes
   status     Show queue stats and recent activity
   preview    Print the next pending note without posting it
 """
@@ -60,7 +60,7 @@ def cmd_fetch():
 def cmd_post():
     from src.substack_client import SubstackClient
     from src.state_manager import (
-        load_state, save_state, latest_post_url, next_pending_note,
+        load_state, save_state, current_pending_source_post_url, next_pending_note,
         mark_note_posted, pending_notes,
     )
 
@@ -69,11 +69,11 @@ def cmd_post():
         sys.exit(1)
 
     state = load_state()
-    source_post_url = latest_post_url(state)
+    source_post_url = current_pending_source_post_url(state)
     note = next_pending_note(state, source_post_url)
 
     if note is None:
-        print("No pending notes for the latest article.")
+        print("No pending notes.")
         return
 
     print(f"Posting note from: {note.source_post_title}")
@@ -85,12 +85,12 @@ def cmd_post():
     save_state(state)
 
     remaining = len(pending_notes(state, source_post_url))
-    print(f"Posted. {remaining} note(s) remaining for the latest article.")
+    print(f"Posted. {remaining} note(s) remaining for this article.")
 
 
 def cmd_status():
     from src.state_manager import (
-        load_state, latest_post_url, pending_count,
+        load_state, current_pending_source_post_url, pending_count,
         pending_notes, posted_count,
     )
 
@@ -99,26 +99,26 @@ def cmd_status():
     print(f"Notes pending   : {pending_count(state)}")
     print(f"Notes posted    : {posted_count(state)}")
 
-    source_post_url = latest_post_url(state)
+    source_post_url = current_pending_source_post_url(state)
     pending = pending_notes(state, source_post_url)
     if pending:
-        print("\nNext notes from latest article:")
+        print("\nNext notes from current article:")
         for i, n in enumerate(pending[:5], 1):
             preview = n.text[:80].replace("\n", " ")
             print(f"  {i}. {preview}...")
-    elif source_post_url:
-        print("\nNo pending notes for the latest article.")
+    else:
+        print("\nNo pending notes.")
 
 
 def cmd_preview():
-    from src.state_manager import load_state, latest_post_url, pending_notes
+    from src.state_manager import load_state, current_pending_source_post_url, pending_notes
 
     state = load_state()
-    source_post_url = latest_post_url(state)
+    source_post_url = current_pending_source_post_url(state)
     pending = pending_notes(state, source_post_url)
 
     if not pending:
-        print("No pending notes for the latest article.")
+        print("No pending notes.")
         return
 
     print(f"Source: {pending[0].source_post_title}")

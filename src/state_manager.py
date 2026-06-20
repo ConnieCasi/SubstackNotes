@@ -77,8 +77,10 @@ def add_notes_to_queue(state: State, notes: List[str], post_title: str, post_url
     state.queue[first_pending_index:first_pending_index] = new_notes
 
 
-def latest_post_url(state: State) -> Optional[str]:
-    return state.processed_post_ids[-1] if state.processed_post_ids else None
+def current_pending_source_post_url(state: State) -> Optional[str]:
+    """Return the source URL for the highest-priority pending notes."""
+    note = next_pending_note(state)
+    return note.source_post_url if note else None
 
 
 def pending_notes(state: State, source_post_url: Optional[str] = None) -> List[QueuedNote]:
