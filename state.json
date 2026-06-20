@@ -9,7 +9,8 @@
     "https://purifai.substack.com/p/the-code-around-the-code",
     "https://purifai.substack.com/p/nobody-trained-claude-to-be-a-chemist",
     "https://purifai.substack.com/p/ai-cant-recognise-itself-in-a-mirror",
-    "https://purifai.substack.com/p/six-people-just-beat-google-at-ai"
+    "https://purifai.substack.com/p/six-people-just-beat-google-at-ai",
+    "https://purifai.substack.com/p/what-happens-when-you-stop-asking"
   ],
   "queue": [
     {
@@ -137,6 +138,55 @@
       "source_post_url": "https://purifai.substack.com/p/six-people-just-beat-google-at-ai",
       "created_at": "2026-06-17T20:35:21.252600",
       "posted_at": "2026-06-17T20:35:23.235226"
+    },
+    {
+      "text": "ChatGPT doesn't calculate \u2014 it hallucinates numbers that look like answers.",
+      "source_post_title": "What Happens When You Stop Asking AI to Guess and Start Making It Compute",
+      "source_post_url": "https://purifai.substack.com/p/what-happens-when-you-stop-asking",
+      "created_at": "2026-06-20T19:08:52.284357",
+      "posted_at": "2026-06-20T19:08:53.758144"
+    },
+    {
+      "text": "There's a specific frustration that nobody names clearly: you know AI is \"bad at math\" but you don't know *why*, and that makes it hard to trust anything it computes.\n\nIt's not a bug they forgot to fix. It's structural. These models predict words. When you type 1,847,392 + 9,284,716, the model isn't running a calculation \u2014 it's guessing which digits most plausibly follow based on patterns from training. It has no calculator. It never did.\n\nThat distinction matters more than most AI coverage lets on, because it tells you exactly where to trust the output and where to verify it.\n\nA research team just built something that changes this at the architecture level \u2014 not by bolting on a calculator, but by replacing prediction with actual program execution inside the model.\n\nThe full breakdown is here if you want to understand what that actually means:\nhttps://purifai.substack.com/p/what-happens-when-you-stop-asking",
+      "source_post_title": "What Happens When You Stop Asking AI to Guess and Start Making It Compute",
+      "source_post_url": "https://purifai.substack.com/p/what-happens-when-you-stop-asking",
+      "created_at": "2026-06-20T19:08:52.284394",
+      "posted_at": null
+    },
+    {
+      "text": "Here's what \"AI can't do math\" actually means under the hood:\n\n- Transformers predict the next token \u2014 always, even when doing \"arithmetic\"\n- Small sums work because the model saw \"2+2=4\" millions of times in training\n- Large numbers fail because there's no pattern to fall back on\n- The model has no internal calculator \u2014 just very confident guessing\n\nThe thing to remember: every AI math error is a prediction error, not a rounding error.\n\nPercepta just built a transformer that executes real programs instead of predicting words \u2014 and the implications go well beyond arithmetic:\nhttps://purifai.substack.com/p/what-happens-when-you-stop-asking",
+      "source_post_title": "What Happens When You Stop Asking AI to Guess and Start Making It Compute",
+      "source_post_url": "https://purifai.substack.com/p/what-happens-when-you-stop-asking",
+      "created_at": "2026-06-20T19:08:52.284397",
+      "posted_at": null
+    },
+    {
+      "text": "A research team solved one of the hardest Sudoku puzzles ever constructed \u2014 rated hardest by a mathematician who specializes in them \u2014 in under three minutes, with 100% accuracy.\n\nNo external solver. No tool call. The AI *was* the program running.\n\nThat's what changes when you stop asking a model to predict answers and make it compute them instead.\n\nhttps://purifai.substack.com/p/what-happens-when-you-stop-asking",
+      "source_post_title": "What Happens When You Stop Asking AI to Guess and Start Making It Compute",
+      "source_post_url": "https://purifai.substack.com/p/what-happens-when-you-stop-asking",
+      "created_at": "2026-06-20T19:08:52.284399",
+      "posted_at": null
+    },
+    {
+      "text": "Hot take: every company racing to give AI better \"tool use\" is building around a problem they should be solving.\n\nConnecting ChatGPT to a calculator isn't progress \u2014 it's a patch. It means you've accepted that the model can't compute and decided to hide that limitation with an API call.\n\nPercepta encoded a real program interpreter directly into a transformer's weights. No external tools. Computation baked into the architecture itself.\n\nThat's a different category of solution. And it makes most of what's called \"AI reasoning\" look like very expensive autocomplete.",
+      "source_post_title": "What Happens When You Stop Asking AI to Guess and Start Making It Compute",
+      "source_post_url": "https://purifai.substack.com/p/what-happens-when-you-stop-asking",
+      "created_at": "2026-06-20T19:08:52.284402",
+      "posted_at": null
+    },
+    {
+      "text": "For a long time, I assumed AI math errors were a training problem \u2014 feed it more equations and it'd get better.\n\nThat framing is wrong, and believing it made me slower to understand what these models actually are.\n\nThe error isn't from insufficient practice. It's from the fact that prediction and computation are fundamentally different operations. No amount of training data turns a next-token predictor into a calculator. The architecture itself is the constraint.\n\nOnce that clicked, the way I read AI research changed completely. I stopped asking \"can it do this yet?\" and started asking \"is it even the right kind of system to try?\"\n\nThat's the lens Purifai is built around \u2014 not hype, not dismissal, just the structural question underneath the headline.\n\nIf that's useful to you, the subscription is worth it:\npurifai.substack.com",
+      "source_post_title": "What Happens When You Stop Asking AI to Guess and Start Making It Compute",
+      "source_post_url": "https://purifai.substack.com/p/what-happens-when-you-stop-asking",
+      "created_at": "2026-06-20T19:08:52.284404",
+      "posted_at": null
+    },
+    {
+      "text": "Percepta built a transformer that executes real software by encoding a program interpreter directly into the model's weights \u2014 no training, no gradient descent, every computation step hand-assembled by engineers.\n\nIt works. It's fast. It's perfectly accurate on problems that destroy normal LLMs.\n\nBut it raises a question I don't think has a clean answer: if an AI system has to be hand-built for every task rather than learned, is it still AI in any meaningful sense \u2014 or is it just software wearing a transformer's clothes?\n\nWhere's the line for you?",
+      "source_post_title": "What Happens When You Stop Asking AI to Guess and Start Making It Compute",
+      "source_post_url": "https://purifai.substack.com/p/what-happens-when-you-stop-asking",
+      "created_at": "2026-06-20T19:08:52.284406",
+      "posted_at": null
     },
     {
       "text": "There's a specific kind of frustration that doesn't have a name yet.\n\nYou've spent months integrating AI into your workflow. You picked the right tools. You followed the tutorials. And the results are... fine. Sometimes good. Rarely transformative.\n\nYou start to wonder if you're doing something wrong, or if the hype was always hollow.\n\nYou're not wrong. And the hype isn't entirely hollow either.\n\nThe problem is that nobody taught the AI how to think through your problem. They just handed you the brain and expected you to figure out the coaching.\n\nThat's exactly what Poetiq figured out \u2014 and why six people just outscored Google on one of the hardest AI benchmarks in the world.\n\nhttps://purifai.substack.com/p/six-people-just-beat-google-at-ai",
