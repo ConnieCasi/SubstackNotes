@@ -10,7 +10,8 @@
     "https://purifai.substack.com/p/nobody-trained-claude-to-be-a-chemist",
     "https://purifai.substack.com/p/ai-cant-recognise-itself-in-a-mirror",
     "https://purifai.substack.com/p/six-people-just-beat-google-at-ai",
-    "https://purifai.substack.com/p/what-happens-when-you-stop-asking"
+    "https://purifai.substack.com/p/what-happens-when-you-stop-asking",
+    "https://purifai.substack.com/p/an-ai-read-firefoxs-code-for-twenty"
   ],
   "queue": [
     {
@@ -145,6 +146,55 @@
       "source_post_url": "https://purifai.substack.com/p/what-happens-when-you-stop-asking",
       "created_at": "2026-06-20T19:08:52.284357",
       "posted_at": "2026-06-20T19:08:53.758144"
+    },
+    {
+      "text": "\"Well-tested\" is a confidence score we invented before AI could actually read code.",
+      "source_post_title": "An AI Read Firefox's Code for Twenty Minutes and Found What Decades of Testing Missed",
+      "source_post_url": "https://purifai.substack.com/p/an-ai-read-firefoxs-code-for-twenty",
+      "created_at": "2026-06-21T19:18:18.524585",
+      "posted_at": "2026-06-21T19:18:20.222052"
+    },
+    {
+      "text": "There's a specific frustration that hits when you realize the security tools you've trusted for years have a blind spot nobody mentioned.\n\nFuzzing sounds rigorous. Millions of CPU hours. Machine speed. Continuous scanning. It feels like thoroughness.\n\nBut it's a toddler randomly pulling handles, not an inspector who understands what they're looking at.\n\nThat distinction \u2014 chaos vs. comprehension \u2014 is exactly what changed when Claude sat down with Firefox's source code for twenty minutes and found what decades of testing missed.\n\nIf that gap makes you uneasy, the full breakdown is worth reading:\nhttps://purifai.substack.com/p/an-ai-read-firefoxs-code-for-twenty",
+      "source_post_title": "An AI Read Firefox's Code for Twenty Minutes and Found What Decades of Testing Missed",
+      "source_post_url": "https://purifai.substack.com/p/an-ai-read-firefoxs-code-for-twenty",
+      "created_at": "2026-06-21T19:18:18.524609",
+      "posted_at": null
+    },
+    {
+      "text": "How Claude found bugs that fuzzers couldn't:\n\n- Fuzzers throw random inputs and wait for crashes \u2014 they can't find bugs that only appear through logical sequences\n- Static analysis matches code against known bad patterns \u2014 invisible to anything new\n- Claude read the Git commit history, found a safety fix added to one file, then checked every other place that same function was called\n- The unpatched version was sitting in a different file, untouched\n\nThe thing to remember: comprehension found what chaos couldn't.\n\nThe full breakdown of all 22 CVEs and what it means for \"well-tested\" software:\nhttps://purifai.substack.com/p/an-ai-read-firefoxs-code-for-twenty",
+      "source_post_title": "An AI Read Firefox's Code for Twenty Minutes and Found What Decades of Testing Missed",
+      "source_post_url": "https://purifai.substack.com/p/an-ai-read-firefoxs-code-for-twenty",
+      "created_at": "2026-06-21T19:18:18.524612",
+      "posted_at": null
+    },
+    {
+      "text": "A developer patches a dangerous function in one file. Adds a safety check. Marks it closed.\n\nClaude pulls the commit history, finds the patch, then asks: did they fix every other place this function runs?\n\nThey hadn't. Different file. Same vulnerability. Still live.\n\nThe bug wasn't hidden. It was just waiting for something that understood context well enough to go looking.\n\nFull story of what happened when Anthropic pointed Claude at Firefox:\nhttps://purifai.substack.com/p/an-ai-read-firefoxs-code-for-twenty",
+      "source_post_title": "An AI Read Firefox's Code for Twenty Minutes and Found What Decades of Testing Missed",
+      "source_post_url": "https://purifai.substack.com/p/an-ai-read-firefoxs-code-for-twenty",
+      "created_at": "2026-06-21T19:18:18.524614",
+      "posted_at": null
+    },
+    {
+      "text": "Hot take: the scariest part of the Firefox story isn't that AI found 22 security vulnerabilities in one of the most scrutinized codebases on earth.\n\nIt's that finding bugs and exploiting them are two completely different skill levels \u2014 and AI is already past the first gate.\n\nEveryone's debating whether AI can \"really\" do security research. That debate is about the second gate.\n\nThe first gate is already open.",
+      "source_post_title": "An AI Read Firefox's Code for Twenty Minutes and Found What Decades of Testing Missed",
+      "source_post_url": "https://purifai.substack.com/p/an-ai-read-firefoxs-code-for-twenty",
+      "created_at": "2026-06-21T19:18:18.524616",
+      "posted_at": null
+    },
+    {
+      "text": "For a long time, I thought \"continuously fuzzed\" meant \"genuinely secure.\"\n\nIf a codebase had millions of CPU hours of fuzzing behind it, maintained by professionals, picked over by researchers for decades \u2014 I filed it under safe. Covered. Done.\n\nWhat I didn't understand is that fuzzing finds what random inputs can reach. It can't find bugs that only appear when you understand the logic well enough to ask the right question.\n\nThat's not a small gap. That's the entire category of vulnerability Claude found 22 of in Firefox inside two weeks.\n\nIt changed how I read security documentation now. \"Fuzzed extensively\" tells me one thing. It no longer tells me everything.\n\nPurifai exists to catch exactly these kinds of assumption failures before they quietly shape your decisions. If that's useful to you, the subscription is worth it.",
+      "source_post_title": "An AI Read Firefox's Code for Twenty Minutes and Found What Decades of Testing Missed",
+      "source_post_url": "https://purifai.substack.com/p/an-ai-read-firefoxs-code-for-twenty",
+      "created_at": "2026-06-21T19:18:18.524618",
+      "posted_at": null
+    },
+    {
+      "text": "Anthropic spent roughly $4,000 in API credits trying to turn Claude's discovered Firefox bugs into working exploits \u2014 actual attacks that could cause real damage.\n\nThe gap between finding a vulnerability and weaponizing it has always been what kept security researchers cautiously optimistic about AI-assisted hacking.\n\nClaude could read code well enough to find 22 CVEs that decades of fuzzing missed. But when it came to building the exploit itself, the results looked very different.\n\nSo here's the question: is \"AI finds bugs but can't yet reliably exploit them\" a meaningful safety gap \u2014 or just a temporary one we're using to feel better about a line that's already been crossed?",
+      "source_post_title": "An AI Read Firefox's Code for Twenty Minutes and Found What Decades of Testing Missed",
+      "source_post_url": "https://purifai.substack.com/p/an-ai-read-firefoxs-code-for-twenty",
+      "created_at": "2026-06-21T19:18:18.524620",
+      "posted_at": null
     },
     {
       "text": "There's a specific frustration that nobody names clearly: you know AI is \"bad at math\" but you don't know *why*, and that makes it hard to trust anything it computes.\n\nIt's not a bug they forgot to fix. It's structural. These models predict words. When you type 1,847,392 + 9,284,716, the model isn't running a calculation \u2014 it's guessing which digits most plausibly follow based on patterns from training. It has no calculator. It never did.\n\nThat distinction matters more than most AI coverage lets on, because it tells you exactly where to trust the output and where to verify it.\n\nA research team just built something that changes this at the architecture level \u2014 not by bolting on a calculator, but by replacing prediction with actual program execution inside the model.\n\nThe full breakdown is here if you want to understand what that actually means:\nhttps://purifai.substack.com/p/what-happens-when-you-stop-asking",
