@@ -11,7 +11,8 @@
     "https://purifai.substack.com/p/ai-cant-recognise-itself-in-a-mirror",
     "https://purifai.substack.com/p/six-people-just-beat-google-at-ai",
     "https://purifai.substack.com/p/what-happens-when-you-stop-asking",
-    "https://purifai.substack.com/p/an-ai-read-firefoxs-code-for-twenty"
+    "https://purifai.substack.com/p/an-ai-read-firefoxs-code-for-twenty",
+    "https://purifai.substack.com/p/the-dumbest-prompting-trick-that"
   ],
   "queue": [
     {
@@ -153,6 +154,55 @@
       "source_post_url": "https://purifai.substack.com/p/an-ai-read-firefoxs-code-for-twenty",
       "created_at": "2026-06-21T19:18:18.524585",
       "posted_at": "2026-06-21T19:18:20.222052"
+    },
+    {
+      "text": "Sending the same prompt twice to an AI isn't a bug \u2014 on some tasks, it jumps accuracy from 21% to 97%.",
+      "source_post_title": "The Dumbest Prompting Trick That Actually Works",
+      "source_post_url": "https://purifai.substack.com/p/the-dumbest-prompting-trick-that",
+      "created_at": "2026-06-22T21:08:29.968591",
+      "posted_at": "2026-06-22T21:08:31.477117"
+    },
+    {
+      "text": "You've noticed your AI answers feel weirdly shallow when you front-load your question.\n\nLike the model didn't really *read* what you gave it. Like it answered before it understood.\n\nThat's not your imagination. It's structural. AI models process text like a one-way mirror \u2014 early words can't see what comes after them. Your question gets answered half-blind.\n\nThe fix is almost insultingly simple, and Google researchers just proved it works across GPT-4o, Claude, Gemini, and more.\n\nhttps://purifai.substack.com/p/the-dumbest-prompting-trick-that",
+      "source_post_title": "The Dumbest Prompting Trick That Actually Works",
+      "source_post_url": "https://purifai.substack.com/p/the-dumbest-prompting-trick-that",
+      "created_at": "2026-06-22T21:08:29.968619",
+      "posted_at": null
+    },
+    {
+      "text": "Why sending your prompt twice actually works:\n\n- AI reads left to right, one word at a time\n- A word at position 10 can't see what's at position 50\n- Your question, asked first, gets processed before your context exists\n- Repeating the prompt gives every word a second pass \u2014 with full context\n\nThe thing to remember: it's not about redundancy. It's about which words can see which other words.\n\nThe full breakdown, including which models benefited most, is here:\nhttps://purifai.substack.com/p/the-dumbest-prompting-trick-that",
+      "source_post_title": "The Dumbest Prompting Trick That Actually Works",
+      "source_post_url": "https://purifai.substack.com/p/the-dumbest-prompting-trick-that",
+      "created_at": "2026-06-22T21:08:29.968622",
+      "posted_at": null
+    },
+    {
+      "text": "A Google team disabled reasoning mode on seven AI models \u2014 GPT-4o, Claude 3.7 Sonnet, Gemini 2.0 Flash, DeepSeek V3, and others \u2014 and ran them through standard benchmarks.\n\nThen they sent every prompt twice. Same words, back to back.\n\nOn one task, Gemini Flash went from 21% accuracy to 97%.\n\nThe one-way mirror was always there. They just moved the question to the other side of it.\n\nhttps://purifai.substack.com/p/the-dumbest-prompting-trick-that",
+      "source_post_title": "The Dumbest Prompting Trick That Actually Works",
+      "source_post_url": "https://purifai.substack.com/p/the-dumbest-prompting-trick-that",
+      "created_at": "2026-06-22T21:08:29.968624",
+      "posted_at": null
+    },
+    {
+      "text": "Hot take: prompt engineering advice is mostly cope for a problem that's already been solved at the architecture level.\n\nReasoning mode \u2014 the \"think step by step\" feature most people ignore \u2014 quietly fixes the same structural flaw that a dozen prompting hacks try to patch manually.\n\nGoogle's own researchers confirmed it: when reasoning is on, prompt repetition becomes neutral. The model is already doing the work.\n\nMost prompting tips exist because people are running powerful models in their weakest configuration.",
+      "source_post_title": "The Dumbest Prompting Trick That Actually Works",
+      "source_post_url": "https://purifai.substack.com/p/the-dumbest-prompting-trick-that",
+      "created_at": "2026-06-22T21:08:29.968626",
+      "posted_at": null
+    },
+    {
+      "text": "For a long time, I thought AI context problems were about *length* \u2014 that models forgot things because prompts got too long.\n\nTurns out it's about *position*, not length. Information early in a prompt is processed with less context than information at the end. The model isn't forgetting. It never fully saw it in the first place.\n\nThat reframe changed how I read every AI output now. When a response misses something obvious, I don't assume the model is dumb. I ask where in the prompt that information lived.\n\nPurifai exists to surface exactly this kind of finding \u2014 the research that reframes how you use these tools, not just what tools exist. If that's worth having in your inbox, the subscription is free.",
+      "source_post_title": "The Dumbest Prompting Trick That Actually Works",
+      "source_post_url": "https://purifai.substack.com/p/the-dumbest-prompting-trick-that",
+      "created_at": "2026-06-22T21:08:29.968628",
+      "posted_at": null
+    },
+    {
+      "text": "Google researchers just showed that repeating your prompt can dramatically improve AI accuracy \u2014 but only when reasoning mode is off.\n\nMost people run AI without reasoning mode, either because they don't know it exists or because they want faster answers.\n\nHere's the question I keep sitting with: if the model performs measurably better when it \"thinks out loud,\" why isn't reasoning mode the default?\n\nIs it a cost decision, a UX decision, or do the labs think most users don't need it?",
+      "source_post_title": "The Dumbest Prompting Trick That Actually Works",
+      "source_post_url": "https://purifai.substack.com/p/the-dumbest-prompting-trick-that",
+      "created_at": "2026-06-22T21:08:29.968630",
+      "posted_at": null
     },
     {
       "text": "There's a specific frustration that hits when you realize the security tools you've trusted for years have a blind spot nobody mentioned.\n\nFuzzing sounds rigorous. Millions of CPU hours. Machine speed. Continuous scanning. It feels like thoroughness.\n\nBut it's a toddler randomly pulling handles, not an inspector who understands what they're looking at.\n\nThat distinction \u2014 chaos vs. comprehension \u2014 is exactly what changed when Claude sat down with Firefox's source code for twenty minutes and found what decades of testing missed.\n\nIf that gap makes you uneasy, the full breakdown is worth reading:\nhttps://purifai.substack.com/p/an-ai-read-firefoxs-code-for-twenty",
