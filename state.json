@@ -12,7 +12,8 @@
     "https://purifai.substack.com/p/six-people-just-beat-google-at-ai",
     "https://purifai.substack.com/p/what-happens-when-you-stop-asking",
     "https://purifai.substack.com/p/an-ai-read-firefoxs-code-for-twenty",
-    "https://purifai.substack.com/p/the-dumbest-prompting-trick-that"
+    "https://purifai.substack.com/p/the-dumbest-prompting-trick-that",
+    "https://purifai.substack.com/p/90-of-expert-work-cant-be-graded"
   ],
   "queue": [
     {
@@ -161,6 +162,55 @@
       "source_post_url": "https://purifai.substack.com/p/the-dumbest-prompting-trick-that",
       "created_at": "2026-06-22T21:08:29.968591",
       "posted_at": "2026-06-22T21:08:31.477117"
+    },
+    {
+      "text": "AI can learn to reach the right answer through completely wrong reasoning \u2014 and never know the difference.",
+      "source_post_title": "90% of Expert Work Can\u2019t Be Graded by AI. That\u2019s a Huge Problem.",
+      "source_post_url": "https://purifai.substack.com/p/90-of-expert-work-cant-be-graded",
+      "created_at": "2026-06-23T21:26:06.438861",
+      "posted_at": "2026-06-23T21:26:07.847597"
+    },
+    {
+      "text": "You've watched an AI nail a medical question or write clean code, and felt that flicker of unease \u2014 not \"this is wrong\" but \"I can't tell *how* it got there.\"\n\nThat feeling has a name: verification blindness.\n\nYou can check the output. You can't check the logic that produced it. And it turns out, neither can the AI training systems building the next generation of these tools.\n\nThe entire industry is betting on a technique that can only grade the easy 10% of expert work. The judgment calls \u2014 the \"it depends,\" the unexpected-but-brilliant choice \u2014 aren't getting trained. They're getting skipped.\n\nThat's not a minor gap. It's where expertise actually lives.\n\nhttps://purifai.substack.com/p/90-of-expert-work-cant-be-graded",
+      "source_post_title": "90% of Expert Work Can\u2019t Be Graded by AI. That\u2019s a Huge Problem.",
+      "source_post_url": "https://purifai.substack.com/p/90-of-expert-work-cant-be-graded",
+      "created_at": "2026-06-23T21:26:06.438891",
+      "posted_at": null
+    },
+    {
+      "text": "One technique is driving most of AI's recent breakthroughs in reasoning. Here's what it can't see:\n\n- \"Find the 1987 Fed annual report\" \u2192 easy to verify\n- \"Find the three best sources for understanding 1980s rural banking\" \u2192 impossible to auto-grade\n- A model that reasons brilliantly but answers wrong \u2192 punished the same as one that was confused from the start\n- A model that stumbles to the right answer through terrible logic \u2192 rewarded the same as one that reasoned perfectly\n\nThe thing to remember: verifiable \u2260 valuable.\n\nThe full breakdown of why this shapes every AI trained today is here:\nhttps://purifai.substack.com/p/90-of-expert-work-cant-be-graded",
+      "source_post_title": "90% of Expert Work Can\u2019t Be Graded by AI. That\u2019s a Huge Problem.",
+      "source_post_url": "https://purifai.substack.com/p/90-of-expert-work-cant-be-graded",
+      "created_at": "2026-06-23T21:26:06.438894",
+      "posted_at": null
+    },
+    {
+      "text": "A training data company working with frontier AI labs ran the numbers across every professional domain they'd touched.\n\nRoughly 90% of expert work can't be graded by an automated system. Even in math and coding \u2014 the most \"checkable\" fields \u2014 only about 20% of an expert's daily work has a clear right-or-wrong answer.\n\nThe insight: the training technique the whole industry is betting on requires exactly the thing that barely exists.\n\nhttps://purifai.substack.com/p/90-of-expert-work-cant-be-graded",
+      "source_post_title": "90% of Expert Work Can\u2019t Be Graded by AI. That\u2019s a Huge Problem.",
+      "source_post_url": "https://purifai.substack.com/p/90-of-expert-work-cant-be-graded",
+      "created_at": "2026-06-23T21:26:06.438896",
+      "posted_at": null
+    },
+    {
+      "text": "Hot take: the real problem with AI reasoning isn't hallucination \u2014 it's that we've built systems optimized to reach correct answers, not to reason correctly.\n\nThose aren't the same thing.\n\nA model that stumbles to the right diagnosis through flawed logic gets the same reward signal as one that reasons carefully. Run that loop thousands of times and you haven't trained good judgment. You've trained a very confident guesser.\n\nHallucinations are visible. This failure mode isn't. That's what makes it dangerous.",
+      "source_post_title": "90% of Expert Work Can\u2019t Be Graded by AI. That\u2019s a Huge Problem.",
+      "source_post_url": "https://purifai.substack.com/p/90-of-expert-work-cant-be-graded",
+      "created_at": "2026-06-23T21:26:06.438898",
+      "posted_at": null
+    },
+    {
+      "text": "Used to think RLVR \u2014 the training method behind most of AI's recent reasoning improvements \u2014 was being held back by compute.\n\nTurns out the bottleneck isn't compute. It's verification.\n\nThe technique works by giving AI problems and checking if it got the answer right. Clean, scalable, powerful. Except: a training data company working with frontier labs just reported that roughly 90% of expert work produces answers that can't be automatically checked.\n\nSo the method doesn't stall at the hard problems. It quietly skips them \u2014 and trains on whatever's left.\n\nWhat changed for me: I stopped asking \"is the AI getting smarter?\" and started asking \"smarter at which 10%?\"\n\nThat question is what Purifai exists to help you ask. If you want a newsletter that treats AI seriously without treating you like a press release audience, the subscription page is worth a look.",
+      "source_post_title": "90% of Expert Work Can\u2019t Be Graded by AI. That\u2019s a Huge Problem.",
+      "source_post_url": "https://purifai.substack.com/p/90-of-expert-work-cant-be-graded",
+      "created_at": "2026-06-23T21:26:06.438900",
+      "posted_at": null
+    },
+    {
+      "text": "When an AI training system can't verify whether an answer is correct, the people designing the tasks rewrite the tasks until they can be verified.\n\nA real clinical question \u2014 \"review this patient's history and recommend a treatment plan\" \u2014 becomes \"given these five symptoms, which of these three drugs is correct?\"\n\nEasier to grade. Fundamentally different task. What gets labeled \"expert reasoning\" in the training data is actually instruction-following.\n\nHere's what I'm genuinely uncertain about: is a model trained this way learning a degraded version of expert judgment, or something categorically different that just looks similar from the outside?\n\nWhere do you land on that?",
+      "source_post_title": "90% of Expert Work Can\u2019t Be Graded by AI. That\u2019s a Huge Problem.",
+      "source_post_url": "https://purifai.substack.com/p/90-of-expert-work-cant-be-graded",
+      "created_at": "2026-06-23T21:26:06.438902",
+      "posted_at": null
     },
     {
       "text": "You've noticed your AI answers feel weirdly shallow when you front-load your question.\n\nLike the model didn't really *read* what you gave it. Like it answered before it understood.\n\nThat's not your imagination. It's structural. AI models process text like a one-way mirror \u2014 early words can't see what comes after them. Your question gets answered half-blind.\n\nThe fix is almost insultingly simple, and Google researchers just proved it works across GPT-4o, Claude, Gemini, and more.\n\nhttps://purifai.substack.com/p/the-dumbest-prompting-trick-that",
