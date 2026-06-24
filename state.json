@@ -13,7 +13,8 @@
     "https://purifai.substack.com/p/what-happens-when-you-stop-asking",
     "https://purifai.substack.com/p/an-ai-read-firefoxs-code-for-twenty",
     "https://purifai.substack.com/p/the-dumbest-prompting-trick-that",
-    "https://purifai.substack.com/p/90-of-expert-work-cant-be-graded"
+    "https://purifai.substack.com/p/90-of-expert-work-cant-be-graded",
+    "https://purifai.substack.com/p/claude-code-has-a-default-stack-and"
   ],
   "queue": [
     {
@@ -169,6 +170,55 @@
       "source_post_url": "https://purifai.substack.com/p/90-of-expert-work-cant-be-graded",
       "created_at": "2026-06-23T21:26:06.438861",
       "posted_at": "2026-06-23T21:26:07.847597"
+    },
+    {
+      "text": "The three biggest cloud providers on earth got zero first-choice recommendations from Claude Code across 112 deployment decisions.",
+      "source_post_title": "Claude Code Has a Default Stack, and It\u2019s Reshaping What Gets Built",
+      "source_post_url": "https://purifai.substack.com/p/claude-code-has-a-default-stack-and",
+      "created_at": "2026-06-24T19:56:55.633402",
+      "posted_at": "2026-06-24T19:56:57.323934"
+    },
+    {
+      "text": "There's a specific anxiety that doesn't have a name yet.\n\nYou've spent years building expertise in a tool \u2014 Redux, AWS, Jest \u2014 and you're watching AI coding agents just... skip it. Not reject it. Not argue against it. Just route around it like it isn't there.\n\nThat's not obsolescence. That's something quieter and harder to argue with.\n\nWhat the Claude Code study reveals is that AI agents aren't making recommendations anymore. They're expressing preferences. And those preferences are already reshaping what gets built before most developers notice the shift.\n\nThe full breakdown of who's winning, who's invisible, and what \"Custom/DIY\" appearing 252 times actually means for your stack:\n\nhttps://purifai.substack.com/p/claude-code-has-a-default-stack-and",
+      "source_post_title": "Claude Code Has a Default Stack, and It\u2019s Reshaping What Gets Built",
+      "source_post_url": "https://purifai.substack.com/p/claude-code-has-a-default-stack-and",
+      "created_at": "2026-06-24T19:56:55.633427",
+      "posted_at": null
+    },
+    {
+      "text": "Claude Code wasn't asked which tools to use. Researchers just gave it tasks.\n\nHere's what it chose, unprompted:\n\n- Vercel: 100% of JavaScript deployment picks\n- Stripe: 91.4% of payment picks\n- GitHub Actions: 93.8% of CI/CD picks\n- AWS, Azure, Google Cloud: zero primary picks across 112 deployment responses\n\nOne thing to remember: these aren't suggestions. When millions of developers prompt the same agent, defaults become infrastructure.\n\nThe full study breakdown is in this week's Purifai post:\n\nhttps://purifai.substack.com/p/claude-code-has-a-default-stack-and",
+      "source_post_title": "Claude Code Has a Default Stack, and It\u2019s Reshaping What Gets Built",
+      "source_post_url": "https://purifai.substack.com/p/claude-code-has-a-default-stack-and",
+      "created_at": "2026-06-24T19:56:55.633430",
+      "posted_at": null
+    },
+    {
+      "text": "A developer asks Claude Code: \"add authentication to this Python API.\"\n\nClaude doesn't suggest Auth0. It doesn't mention Clerk. It writes JWT + bcrypt from scratch and moves on.\n\nThat happened 100% of the time across every Python auth task in the study \u2014 not because Claude was told to, but because it wasn't told not to.\n\nThe instinct to build instead of buy isn't a quirk. It's a default. And defaults, at scale, become the new normal.\n\nhttps://purifai.substack.com/p/claude-code-has-a-default-stack-and",
+      "source_post_title": "Claude Code Has a Default Stack, and It\u2019s Reshaping What Gets Built",
+      "source_post_url": "https://purifai.substack.com/p/claude-code-has-a-default-stack-and",
+      "created_at": "2026-06-24T19:56:55.633432",
+      "posted_at": null
+    },
+    {
+      "text": "Hot take: the real threat to developer tool companies isn't a competitor building a better product. It's an AI agent that never mentions them.\n\nEveryone worries about being disrupted by something flashier. But Redux didn't lose to a better state manager. It got zero primary picks out of 88 responses while Zustand quietly became the default.\n\nNo campaign, no debate, no migration guide. Just an AI that stopped reaching for it.\n\nThe winner of the AI era isn't whoever has the best product. It's whoever gets baked into the agent's instincts first.",
+      "source_post_title": "Claude Code Has a Default Stack, and It\u2019s Reshaping What Gets Built",
+      "source_post_url": "https://purifai.substack.com/p/claude-code-has-a-default-stack-and",
+      "created_at": "2026-06-24T19:56:55.633434",
+      "posted_at": null
+    },
+    {
+      "text": "For a long time, I assumed AI coding tools would work like a senior engineer: weigh the options, explain the tradeoffs, give you three choices and a recommendation.\n\nI was wrong about what \"recommendation\" means at this scale.\n\nWhen researchers ran Claude Code 2,430 times without hinting at any tools, it didn't deliberate. It picked the same tools, the same way, over and over \u2014 90%+ consistency in categories like payments, deployment, and UI components.\n\nThat changed how I think about Purifai's job. It's not enough to cover what AI can do. We need to cover what AI is quietly deciding for the people who never asked it to decide.\n\nThat's the editorial lens we bring every week. If that's worth having in your inbox, Purifai is where to get it.",
+      "source_post_title": "Claude Code Has a Default Stack, and It\u2019s Reshaping What Gets Built",
+      "source_post_url": "https://purifai.substack.com/p/claude-code-has-a-default-stack-and",
+      "created_at": "2026-06-24T19:56:55.633436",
+      "posted_at": null
+    },
+    {
+      "text": "Claude Code defaults to building custom solutions 69% of the time for feature flags, and 100% of the time for Python authentication \u2014 no external tools, just code it writes itself.\n\nHere's what I'm genuinely unsure about: is that a good default?\n\nThere's a real argument that hand-rolled solutions are leaner, cheaper, and easier to own long-term. There's an equally real argument that reinventing auth and caching from scratch is how security vulnerabilities get born.\n\nWhen an AI agent builds instead of buying \u2014 without being asked \u2014 whose responsibility is the outcome?",
+      "source_post_title": "Claude Code Has a Default Stack, and It\u2019s Reshaping What Gets Built",
+      "source_post_url": "https://purifai.substack.com/p/claude-code-has-a-default-stack-and",
+      "created_at": "2026-06-24T19:56:55.633438",
+      "posted_at": null
     },
     {
       "text": "You've watched an AI nail a medical question or write clean code, and felt that flicker of unease \u2014 not \"this is wrong\" but \"I can't tell *how* it got there.\"\n\nThat feeling has a name: verification blindness.\n\nYou can check the output. You can't check the logic that produced it. And it turns out, neither can the AI training systems building the next generation of these tools.\n\nThe entire industry is betting on a technique that can only grade the easy 10% of expert work. The judgment calls \u2014 the \"it depends,\" the unexpected-but-brilliant choice \u2014 aren't getting trained. They're getting skipped.\n\nThat's not a minor gap. It's where expertise actually lives.\n\nhttps://purifai.substack.com/p/90-of-expert-work-cant-be-graded",
