@@ -14,7 +14,8 @@
     "https://purifai.substack.com/p/an-ai-read-firefoxs-code-for-twenty",
     "https://purifai.substack.com/p/the-dumbest-prompting-trick-that",
     "https://purifai.substack.com/p/90-of-expert-work-cant-be-graded",
-    "https://purifai.substack.com/p/claude-code-has-a-default-stack-and"
+    "https://purifai.substack.com/p/claude-code-has-a-default-stack-and",
+    "https://purifai.substack.com/p/can-ai-actually-think"
   ],
   "queue": [
     {
@@ -177,6 +178,55 @@
       "source_post_url": "https://purifai.substack.com/p/claude-code-has-a-default-stack-and",
       "created_at": "2026-06-24T19:56:55.633402",
       "posted_at": "2026-06-24T19:56:57.323934"
+    },
+    {
+      "text": "Giving AI a notepad made it smarter than giving it a bigger brain.",
+      "source_post_title": "Can AI Actually Think?",
+      "source_post_url": "https://purifai.substack.com/p/can-ai-actually-think",
+      "created_at": "2026-06-25T20:04:23.017365",
+      "posted_at": "2026-06-25T20:04:24.557122"
+    },
+    {
+      "text": "There's a specific frustration that hits when you hand a task to an AI and it confidently fails halfway through \u2014 not because it's dumb, but because it forgot what it was doing three steps ago.\n\nYou're not imagining it. Most AI models have no persistent memory during a task. Every step, they're working from a shrinking window of context. The more complex the problem, the more likely they are to lose the thread.\n\nThe weird part? A simple notepad fixes a lot of it.\n\nThat's what one experiment with ARC-AGI-3 \u2014 a benchmark designed to test real reasoning, not just pattern recall \u2014 actually showed. The models with memory scaffolding didn't just do better. They reasoned differently.\n\nThe full breakdown is here if you want to understand what that means for where AI is actually headed:\nhttps://purifai.substack.com/p/can-ai-actually-think",
+      "source_post_title": "Can AI Actually Think?",
+      "source_post_url": "https://purifai.substack.com/p/can-ai-actually-think",
+      "created_at": "2026-06-25T20:04:23.017395",
+      "posted_at": null
+    },
+    {
+      "text": "Why Claude outperformed Gemini on a reasoning benchmark \u2014 and it wasn't model size.\n\nBoth models were given the same ARC-AGI-3 puzzles. Same interface. Same move limits.\n\nThe difference came down to one thing: how they used a notepad.\n\n- Gemini wrote 1\u20132 messy sentences and lost track of its own logic\n- Claude wrote structured, organized notes and recovered from mistakes\n- The model that remembered its reasoning solved more puzzles\n\nMemory architecture matters more than raw capability right now.\n\nThe deeper implication \u2014 what this suggests about where AI reasoning is actually stuck \u2014 is in the full post:\nhttps://purifai.substack.com/p/can-ai-actually-think",
+      "source_post_title": "Can AI Actually Think?",
+      "source_post_url": "https://purifai.substack.com/p/can-ai-actually-think",
+      "created_at": "2026-06-25T20:04:23.017398",
+      "posted_at": null
+    },
+    {
+      "text": "She built a custom testing room for AI \u2014 official ARC-AGI-3 puzzles, a dashboard to track behavior, and one small addition: a notepad where the model could write notes to itself.\n\nGemini filled it with two messy sentences and ran out of moves. Claude structured it like a working document and started recognizing patterns mid-puzzle.\n\nSame exam. Same rules. The one that treated memory as a tool won.\n\nThat gap tells you more about the current ceiling of AI reasoning than any benchmark score:\nhttps://purifai.substack.com/p/can-ai-actually-think",
+      "source_post_title": "Can AI Actually Think?",
+      "source_post_url": "https://purifai.substack.com/p/can-ai-actually-think",
+      "created_at": "2026-06-25T20:04:23.017400",
+      "posted_at": null
+    },
+    {
+      "text": "Hot take: the AI reasoning debate is ten years ahead of itself.\n\nEveryone's arguing about whether AI can truly \"think\" while the models are still failing because they can't remember what they were doing four steps ago.\n\nARC-AGI-3 \u2014 one of the most respected tests for genuine reasoning \u2014 isn't being beaten by raw intelligence. It's being beaten by memory scaffolding. A notepad.\n\nWe're not close to solving reasoning. We're close to papering over the gaps with better short-term memory tricks. Those are not the same thing.",
+      "source_post_title": "Can AI Actually Think?",
+      "source_post_url": "https://purifai.substack.com/p/can-ai-actually-think",
+      "created_at": "2026-06-25T20:04:23.017402",
+      "posted_at": null
+    },
+    {
+      "text": "For a long time, when AI failed on a hard task, my instinct was to blame the model. Wrong prompt, wrong tool, wrong size.\n\nThen I read about these ARC-AGI-3 experiments and realized the failure wasn't intelligence \u2014 it was architecture. These models aren't forgetting because they're not smart enough. They're forgetting because there's no mechanism to remember. The context window closes, and everything's gone.\n\nThat reframe changed how I evaluate AI tools entirely. The question isn't \"is it smart?\" It's \"can it hold the thread?\"\n\nThat's the kind of distinction Purifai exists to make \u2014 between what AI looks like it's doing and what's actually happening under the hood. If that's useful to you, the subscription is free.",
+      "source_post_title": "Can AI Actually Think?",
+      "source_post_url": "https://purifai.substack.com/p/can-ai-actually-think",
+      "created_at": "2026-06-25T20:04:23.017404",
+      "posted_at": null
+    },
+    {
+      "text": "ARC-AGI-3 is designed so that AI can't solve it by pattern-matching training data. The puzzles are novel every time. You actually have to reason through them.\n\nOne researcher gave models a notepad to track their thinking. Performance improved significantly. The models that used memory well solved more \u2014 not because they were smarter, but because they could hold a chain of logic across steps.\n\nSo here's what I'm genuinely unsure about: is \"memory scaffolding\" a real step toward machine reasoning \u2014 or is it just a better illusion of it?",
+      "source_post_title": "Can AI Actually Think?",
+      "source_post_url": "https://purifai.substack.com/p/can-ai-actually-think",
+      "created_at": "2026-06-25T20:04:23.017406",
+      "posted_at": null
     },
     {
       "text": "There's a specific anxiety that doesn't have a name yet.\n\nYou've spent years building expertise in a tool \u2014 Redux, AWS, Jest \u2014 and you're watching AI coding agents just... skip it. Not reject it. Not argue against it. Just route around it like it isn't there.\n\nThat's not obsolescence. That's something quieter and harder to argue with.\n\nWhat the Claude Code study reveals is that AI agents aren't making recommendations anymore. They're expressing preferences. And those preferences are already reshaping what gets built before most developers notice the shift.\n\nThe full breakdown of who's winning, who's invisible, and what \"Custom/DIY\" appearing 252 times actually means for your stack:\n\nhttps://purifai.substack.com/p/claude-code-has-a-default-stack-and",
