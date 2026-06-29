@@ -16,7 +16,8 @@
     "https://purifai.substack.com/p/90-of-expert-work-cant-be-graded",
     "https://purifai.substack.com/p/claude-code-has-a-default-stack-and",
     "https://purifai.substack.com/p/can-ai-actually-think",
-    "https://purifai.substack.com/p/the-chatbot-era-is-ending-the-claw"
+    "https://purifai.substack.com/p/the-chatbot-era-is-ending-the-claw",
+    "https://purifai.substack.com/p/anthropic-just-dropped-agent-teams"
   ],
   "queue": [
     {
@@ -193,6 +194,55 @@
       "source_post_url": "https://purifai.substack.com/p/the-chatbot-era-is-ending-the-claw",
       "created_at": "2026-06-26T19:49:53.368914",
       "posted_at": "2026-06-26T19:49:54.959141"
+    },
+    {
+      "text": "The real AI bottleneck isn't speed or intelligence \u2014 it's that every model can only see a slice of your problem at once.",
+      "source_post_title": "Anthropic Just Dropped Agent Teams",
+      "source_post_url": "https://purifai.substack.com/p/anthropic-just-dropped-agent-teams",
+      "created_at": "2026-06-29T20:12:27.765385",
+      "posted_at": "2026-06-29T20:12:29.625006"
+    },
+    {
+      "text": "You know that feeling when Claude starts giving you weirdly narrow answers on a big project?\n\nLike it's forgetting what you built three files ago, or obsessing over one function while the rest of the codebase crumbles?\n\nThat's not you prompting wrong. That's the context window filling up \u2014 and the AI developing tunnel vision.\n\nAnthropic just shipped something that actually fixes this, not by expanding the window, but by giving each agent its own.\n\nhttps://purifai.substack.com/p/anthropic-just-dropped-agent-teams",
+      "source_post_title": "Anthropic Just Dropped Agent Teams",
+      "source_post_url": "https://purifai.substack.com/p/anthropic-just-dropped-agent-teams",
+      "created_at": "2026-06-29T20:12:27.765444",
+      "posted_at": null
+    },
+    {
+      "text": "Most people use Claude Code like a conversation. Here's why that breaks on complex projects:\n\n- One context window = one limited view of your codebase\n- As the session grows, earlier context falls out\n- Claude starts \"tunnel visioning\" on one file or function\n- The bigger the project, the worse this gets\n\nThe fix isn't prompting harder. It's architecture.\n\nAnthropic's Agent Teams give each agent its own separate context \u2014 so the team leader synthesizes a 360-degree view no single agent could hold.\n\nFull setup walkthrough here: https://purifai.substack.com/p/anthropic-just-dropped-agent-teams",
+      "source_post_title": "Anthropic Just Dropped Agent Teams",
+      "source_post_url": "https://purifai.substack.com/p/anthropic-just-dropped-agent-teams",
+      "created_at": "2026-06-29T20:12:27.765447",
+      "posted_at": null
+    },
+    {
+      "text": "A developer was working through a large authentication refactor with Claude. Halfway through, Claude started ignoring the session layer entirely \u2014 fixated on the token logic, blind to everything upstream.\n\nThey hadn't done anything wrong. The context window had just filled up, and Claude's view of the codebase had quietly narrowed.\n\nAgent Teams exist because one mind \u2014 even an AI one \u2014 can only hold so much before the edges go dark.\n\nhttps://purifai.substack.com/p/anthropic-just-dropped-agent-teams",
+      "source_post_title": "Anthropic Just Dropped Agent Teams",
+      "source_post_url": "https://purifai.substack.com/p/anthropic-just-dropped-agent-teams",
+      "created_at": "2026-06-29T20:12:27.765449",
+      "posted_at": null
+    },
+    {
+      "text": "Hot take: giving AI a bigger context window is the wrong solution to the wrong problem.\n\nEveryone's chasing longer memory like that's what makes AI useful on complex work. But the real issue is focus \u2014 one model trying to see everything sees nothing deeply.\n\nMultiple agents, each with their own context and a specific slice of the problem, will outperform one giant model with perfect memory.\n\nAnthropic just validated this with Agent Teams. Parallel, specialized, coordinated \u2014 not just longer.",
+      "source_post_title": "Anthropic Just Dropped Agent Teams",
+      "source_post_url": "https://purifai.substack.com/p/anthropic-just-dropped-agent-teams",
+      "created_at": "2026-06-29T20:12:27.765451",
+      "posted_at": null
+    },
+    {
+      "text": "For a long time, I thought careful prompting was the answer to Claude losing track of big projects.\n\nAdd memory files. Summarize earlier context manually. Re-paste the relevant code. I treated it like a discipline problem \u2014 if I was just more organized, the AI would stay on track.\n\nI was wrong. It was never a prompting problem. It was a structural one. One context window cannot hold a large codebase and stay coherent. That's physics, not sloppiness.\n\nWhat actually changes this is multiple agents, each with their own isolated context, working a specific problem in parallel \u2014 not one agent trying to carry everything.\n\nThat's the kind of structural clarity Purifai exists to give you. If you want to understand AI tools at that level \u2014 not just what's new, but why it matters \u2014 the newsletter is worth subscribing to.",
+      "source_post_title": "Anthropic Just Dropped Agent Teams",
+      "source_post_url": "https://purifai.substack.com/p/anthropic-just-dropped-agent-teams",
+      "created_at": "2026-06-29T20:12:27.765454",
+      "posted_at": null
+    },
+    {
+      "text": "Anthropic's Agent Teams let multiple Claude instances work a codebase simultaneously \u2014 each with its own context, coordinated by a team leader that synthesizes their reports.\n\nThe promise is real: parallel agents, no tunnel vision, comprehensive coverage of large codebases.\n\nBut here's the question I keep turning over: when the \"team leader\" is also an AI synthesizing other AI outputs, how do you know where the reasoning went wrong?\n\nDo you trust the final report \u2014 or does parallel AI work just give you more confident mistakes?",
+      "source_post_title": "Anthropic Just Dropped Agent Teams",
+      "source_post_url": "https://purifai.substack.com/p/anthropic-just-dropped-agent-teams",
+      "created_at": "2026-06-29T20:12:27.765455",
+      "posted_at": null
     },
     {
       "text": "You've felt it \u2014 that quiet frustration when ChatGPT gives you a perfect answer and you still have to go do everything yourself.\n\nThe advice is flawless. The work is still yours. Nothing actually moved.\n\nThat's not a you problem. That's the chatbot ceiling. Every current AI tool was built to respond, not to execute.\n\nThat ceiling is cracking. The next wave isn't better answers \u2014 it's AI that books the restaurant, clears the inbox, clicks the buttons.\n\nIf you want to understand what that shift actually looks like \u2014 and who's building it \u2014 the full breakdown is here:\n\nhttps://purifai.substack.com/p/the-chatbot-era-is-ending-the-claw",
