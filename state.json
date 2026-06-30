@@ -17,7 +17,8 @@
     "https://purifai.substack.com/p/claude-code-has-a-default-stack-and",
     "https://purifai.substack.com/p/can-ai-actually-think",
     "https://purifai.substack.com/p/the-chatbot-era-is-ending-the-claw",
-    "https://purifai.substack.com/p/anthropic-just-dropped-agent-teams"
+    "https://purifai.substack.com/p/anthropic-just-dropped-agent-teams",
+    "https://purifai.substack.com/p/when-is-the-right-time-to-build-superintelligenc"
   ],
   "queue": [
     {
@@ -201,6 +202,55 @@
       "source_post_url": "https://purifai.substack.com/p/anthropic-just-dropped-agent-teams",
       "created_at": "2026-06-29T20:12:27.765385",
       "posted_at": "2026-06-29T20:12:29.625006"
+    },
+    {
+      "text": "Doing nothing about superintelligence is not the safe choice. It's just the slower way to die.",
+      "source_post_title": "When Is the Right Time to Build Superintelligence?",
+      "source_post_url": "https://purifai.substack.com/p/when-is-the-right-time-to-build-superintelligenc",
+      "created_at": "2026-06-30T19:55:18.690603",
+      "posted_at": "2026-06-30T19:55:20.328774"
+    },
+    {
+      "text": "There's a specific discomfort that comes from realizing you've been framing the AI safety debate wrong.\n\nNot \"should we build superintelligent AI\" but \"which risks are we actually comparing.\"\n\nBecause the alternative to building it isn't safety. It's 170,000 people dying today. And tomorrow. And every day we wait.\n\nThat reframe doesn't make the decision easy. It makes it honest.\n\nThe full breakdown of how to think through this tradeoff is here:\nhttps://purifai.substack.com/p/when-is-the-right-time-to-build-superintelligenc",
+      "source_post_title": "When Is the Right Time to Build Superintelligence?",
+      "source_post_url": "https://purifai.substack.com/p/when-is-the-right-time-to-build-superintelligenc",
+      "created_at": "2026-06-30T19:55:18.690682",
+      "posted_at": null
+    },
+    {
+      "text": "One counterintuitive result from modelling superintelligence timing:\n\n- A 90% chance of catastrophic AI failure still produces ~140 expected years of life\n- Doing nothing gives the average person ~40 expected years\n- Long delays trade reduced AI risk for guaranteed deaths from ordinary causes\n- The optimal wait is typically months to a few years, not decades\n\nThe one thing to remember: enormous upside changes the maths even when risk is very high.\n\nThe full model is here:\nhttps://purifai.substack.com/p/when-is-the-right-time-to-build-superintelligenc",
+      "source_post_title": "When Is the Right Time to Build Superintelligence?",
+      "source_post_url": "https://purifai.substack.com/p/when-is-the-right-time-to-build-superintelligenc",
+      "created_at": "2026-06-30T19:55:18.690685",
+      "posted_at": null
+    },
+    {
+      "text": "A doctor tells you that without surgery, the disease will kill you. The surgery is dangerous \u2014 maybe a 90% chance something goes wrong.\n\nMost people say \"don't risk it.\" The maths says something different.\n\nThe insight: when the alternative is already fatal, danger isn't the right measure. Expected life is.\n\nRead how this logic applies to superintelligence:\nhttps://purifai.substack.com/p/when-is-the-right-time-to-build-superintelligenc",
+      "source_post_title": "When Is the Right Time to Build Superintelligence?",
+      "source_post_url": "https://purifai.substack.com/p/when-is-the-right-time-to-build-superintelligenc",
+      "created_at": "2026-06-30T19:55:18.690688",
+      "posted_at": null
+    },
+    {
+      "text": "Hot take: the AI safety movement has accidentally made the \"go slow\" position feel like the moral default \u2014 and that framing is costing lives.\n\nDelay isn't neutral. Every year we wait is another year of 170,000 daily deaths from disease, war, and aging that a successful superintelligence might have prevented.\n\nThe question was never \"safe vs. dangerous.\" It was always \"which risk gives us the better odds.\" Treating caution as automatically responsible is itself a choice with a body count.",
+      "source_post_title": "When Is the Right Time to Build Superintelligence?",
+      "source_post_url": "https://purifai.substack.com/p/when-is-the-right-time-to-build-superintelligenc",
+      "created_at": "2026-06-30T19:55:18.690690",
+      "posted_at": null
+    },
+    {
+      "text": "For a long time, I thought the responsible position on superintelligence was: move slowly, reduce risk, wait until we're sure.\n\nIt felt obvious. More time means safer systems. What's the argument against that?\n\nThen I ran the expected value calculation and it broke that assumption completely.\n\nWaiting isn't free. Every year of delay has a cost measured in people who died from things a successful superintelligence might have cured. The \"cautious\" path and the \"reckless\" path are both risky \u2014 they just kill people at different speeds.\n\nThat's the kind of reframe Purifai exists to make. If you want to think more clearly about AI \u2014 not just follow it \u2014 the subscription is worth it.",
+      "source_post_title": "When Is the Right Time to Build Superintelligence?",
+      "source_post_url": "https://purifai.substack.com/p/when-is-the-right-time-to-build-superintelligenc",
+      "created_at": "2026-06-30T19:55:18.690692",
+      "posted_at": null
+    },
+    {
+      "text": "The timing debate around superintelligence assumes that more research time always means safer AI. But there's a real argument that safety progress accelerates fastest once the actual system exists and can be tested directly.\n\nIf that's true, moving quickly to near-AGI capability and then pausing briefly before deployment might be smarter than stretching caution across decades.\n\nHere's the question: do you think meaningful AI safety work can happen before a powerful system exists \u2014 or does real alignment research require the real thing?",
+      "source_post_title": "When Is the Right Time to Build Superintelligence?",
+      "source_post_url": "https://purifai.substack.com/p/when-is-the-right-time-to-build-superintelligenc",
+      "created_at": "2026-06-30T19:55:18.690694",
+      "posted_at": null
     },
     {
       "text": "You know that feeling when Claude starts giving you weirdly narrow answers on a big project?\n\nLike it's forgetting what you built three files ago, or obsessing over one function while the rest of the codebase crumbles?\n\nThat's not you prompting wrong. That's the context window filling up \u2014 and the AI developing tunnel vision.\n\nAnthropic just shipped something that actually fixes this, not by expanding the window, but by giving each agent its own.\n\nhttps://purifai.substack.com/p/anthropic-just-dropped-agent-teams",
