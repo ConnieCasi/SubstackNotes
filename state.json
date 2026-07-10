@@ -19,7 +19,8 @@
     "https://purifai.substack.com/p/the-chatbot-era-is-ending-the-claw",
     "https://purifai.substack.com/p/anthropic-just-dropped-agent-teams",
     "https://purifai.substack.com/p/when-is-the-right-time-to-build-superintelligenc",
-    "https://purifai.substack.com/p/anthropic-raises-30-billion-now-worth"
+    "https://purifai.substack.com/p/anthropic-raises-30-billion-now-worth",
+    "https://purifai.substack.com/p/why-your-voice-assistant-waits-for"
   ],
   "queue": [
     {
@@ -217,6 +218,55 @@
       "source_post_url": "https://purifai.substack.com/p/anthropic-raises-30-billion-now-worth",
       "created_at": "2026-07-05T19:32:14.254617",
       "posted_at": "2026-07-05T19:32:15.700178"
+    },
+    {
+      "text": "Every voice AI you've used is secretly a walkie-talkie pretending to be a phone call.",
+      "source_post_title": "Why Your Voice Assistant Waits for You to Say \"Over\"",
+      "source_post_url": "https://purifai.substack.com/p/why-your-voice-assistant-waits-for",
+      "created_at": "2026-07-10T20:28:54.510486",
+      "posted_at": "2026-07-10T20:28:55.820085"
+    },
+    {
+      "text": "There's a specific frustration with voice AI that nobody names cleanly.\n\nYou feel like you're collaborating, but you're actually just waiting your turn. You finish. It processes. It responds. You wait again.\n\nIt's not slow because AI is dumb. It's slow because the \"brain\" isn't even listening when you're talking \u2014 a tiny, separate program is, and it has no idea what you actually said.\n\nThat distinction matters more than you'd think.\n\nThinking Machines just built something that changes this at the architecture level, not the feature level.\n\nhttps://purifai.substack.com/p/why-your-voice-assistant-waits-for",
+      "source_post_title": "Why Your Voice Assistant Waits for You to Say \"Over\"",
+      "source_post_url": "https://purifai.substack.com/p/why-your-voice-assistant-waits-for",
+      "created_at": "2026-07-10T20:28:54.510543",
+      "posted_at": null
+    },
+    {
+      "text": "Why your voice AI can't count your pushups \u2014 even though it's \"smart enough\" to:\n\n- A separate program decides when you've stopped talking\n- That program only hears sound \u2014 it doesn't understand meaning\n- The actual language model isn't listening yet at that point\n- By the time it is, the moment has already passed\n\nThe one thing to remember: the scaffolding around the model caps how smart the behaviour can be.\n\nThe full breakdown of how Thinking Machines is replacing that scaffolding with one continuous model:\n\nhttps://purifai.substack.com/p/why-your-voice-assistant-waits-for",
+      "source_post_title": "Why Your Voice Assistant Waits for You to Say \"Over\"",
+      "source_post_url": "https://purifai.substack.com/p/why-your-voice-assistant-waits-for",
+      "created_at": "2026-07-10T20:28:54.510546",
+      "posted_at": null
+    },
+    {
+      "text": "Try asking a voice AI to count your reps mid-workout. Every single one goes silent while you're moving, then catches up after you stop.\n\nThat's not a training failure. The model literally cannot hear you while it's speaking \u2014 it's not in the room yet when you need it.\n\nOne new research lab built a system that processes a fresh slice of reality five times a second, even mid-sentence. The walkie-talkie just became a phone call.\n\nhttps://purifai.substack.com/p/why-your-voice-assistant-waits-for",
+      "source_post_title": "Why Your Voice Assistant Waits for You to Say \"Over\"",
+      "source_post_url": "https://purifai.substack.com/p/why-your-voice-assistant-waits-for",
+      "created_at": "2026-07-10T20:28:54.510548",
+      "posted_at": null
+    },
+    {
+      "text": "Hot take: ChatGPT's voice mode isn't actually a voice AI. It's a text AI with audio duct-taped to both ends.\n\nSpeech-to-text converts you into words. A language model reads the words. Text-to-speech reads the answer back. Three separate systems, no real-time perception of anything.\n\nThe \"intelligence\" everyone's impressed by isn't hearing you \u2014 it's reading a transcript of you after the fact.\n\nReal-time voice AI doesn't exist yet at scale. What we have is a very convincing illusion of it.",
+      "source_post_title": "Why Your Voice Assistant Waits for You to Say \"Over\"",
+      "source_post_url": "https://purifai.substack.com/p/why-your-voice-assistant-waits-for",
+      "created_at": "2026-07-10T20:28:54.510550",
+      "posted_at": null
+    },
+    {
+      "text": "Used to think voice AI felt clunky because the models weren't smart enough yet.\n\nTurns out the models were fine. The problem was the plumbing around them \u2014 a stack of separate programs handing off audio like a relay race, where the actual language model only sees a transcript after you've already stopped talking.\n\nSmarter models running on broken architecture still produce broken behaviour.\n\nThat reframe changed how I read every \"improved voice mode\" announcement now. I'm not asking how smart the model is \u2014 I'm asking whether the architecture changed.\n\nThat's the kind of distinction Purifai exists to make. If you want AI coverage that explains the thing underneath the thing, the subscription is worth it.",
+      "source_post_title": "Why Your Voice Assistant Waits for You to Say \"Over\"",
+      "source_post_url": "https://purifai.substack.com/p/why-your-voice-assistant-waits-for",
+      "created_at": "2026-07-10T20:28:54.510552",
+      "posted_at": null
+    },
+    {
+      "text": "Thinking Machines just demoed a voice AI that processes audio, video, and text every 200 milliseconds \u2014 while it's still talking to you.\n\nNo turn-taking. No waiting for you to finish. A live, continuous read of whatever's happening in front of it.\n\nThe architecture is genuinely different from anything currently shipping.\n\nHere's what I'm not sure about: does removing turn-taking actually make conversation feel more natural, or does it make it feel more chaotic?\n\nHuman intuition was built around taking turns. We get uncomfortable when people talk over us, even when they're helpful.\n\nDoes real-time AI perception solve a real problem \u2014 or solve a technical limitation that our social instincts actually preferred?",
+      "source_post_title": "Why Your Voice Assistant Waits for You to Say \"Over\"",
+      "source_post_url": "https://purifai.substack.com/p/why-your-voice-assistant-waits-for",
+      "created_at": "2026-07-10T20:28:54.510554",
+      "posted_at": null
     },
     {
       "text": "There's a specific feeling you get when you read \"$380 billion valuation\" and realize you still don't fully understand what Anthropic actually *does*.\n\nIt's not ignorance. It's that the numbers have outpaced the explanations.\n\nEveryone's reporting the fundraise. Nobody's explaining why 80% of Anthropic's revenue comes from businesses you've never heard of \u2014 not consumers like you and me.\n\nThat gap is exactly what this breakdown covers.\n\nhttps://purifai.substack.com/p/anthropic-raises-30-billion-now-worth",
