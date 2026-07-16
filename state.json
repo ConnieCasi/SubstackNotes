@@ -231,7 +231,7 @@
       "source_post_title": "Why Your Voice Assistant Waits for You to Say \"Over\"",
       "source_post_url": "https://purifai.substack.com/p/why-your-voice-assistant-waits-for",
       "created_at": "2026-07-10T20:28:54.510543",
-      "posted_at": null
+      "posted_at": "2026-07-16T18:33:48.848911"
     },
     {
       "text": "Why your voice AI can't count your pushups \u2014 even though it's \"smart enough\" to:\n\n- A separate program decides when you've stopped talking\n- That program only hears sound \u2014 it doesn't understand meaning\n- The actual language model isn't listening yet at that point\n- By the time it is, the moment has already passed\n\nThe one thing to remember: the scaffolding around the model caps how smart the behaviour can be.\n\nThe full breakdown of how Thinking Machines is replacing that scaffolding with one continuous model:\n\nhttps://purifai.substack.com/p/why-your-voice-assistant-waits-for",
