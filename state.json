@@ -245,7 +245,7 @@
       "source_post_title": "Why Your Voice Assistant Waits for You to Say \"Over\"",
       "source_post_url": "https://purifai.substack.com/p/why-your-voice-assistant-waits-for",
       "created_at": "2026-07-10T20:28:54.510548",
-      "posted_at": null
+      "posted_at": "2026-07-20T16:37:23.662604"
     },
     {
       "text": "Hot take: ChatGPT's voice mode isn't actually a voice AI. It's a text AI with audio duct-taped to both ends.\n\nSpeech-to-text converts you into words. A language model reads the words. Text-to-speech reads the answer back. Three separate systems, no real-time perception of anything.\n\nThe \"intelligence\" everyone's impressed by isn't hearing you \u2014 it's reading a transcript of you after the fact.\n\nReal-time voice AI doesn't exist yet at scale. What we have is a very convincing illusion of it.",
