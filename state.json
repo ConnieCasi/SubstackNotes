@@ -252,7 +252,7 @@
       "source_post_title": "Why Your Voice Assistant Waits for You to Say \"Over\"",
       "source_post_url": "https://purifai.substack.com/p/why-your-voice-assistant-waits-for",
       "created_at": "2026-07-10T20:28:54.510550",
-      "posted_at": null
+      "posted_at": "2026-07-25T20:16:31.819847"
     },
     {
       "text": "Used to think voice AI felt clunky because the models weren't smart enough yet.\n\nTurns out the models were fine. The problem was the plumbing around them \u2014 a stack of separate programs handing off audio like a relay race, where the actual language model only sees a transcript after you've already stopped talking.\n\nSmarter models running on broken architecture still produce broken behaviour.\n\nThat reframe changed how I read every \"improved voice mode\" announcement now. I'm not asking how smart the model is \u2014 I'm asking whether the architecture changed.\n\nThat's the kind of distinction Purifai exists to make. If you want AI coverage that explains the thing underneath the thing, the subscription is worth it.",
