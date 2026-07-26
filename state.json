@@ -259,7 +259,7 @@
       "source_post_title": "Why Your Voice Assistant Waits for You to Say \"Over\"",
       "source_post_url": "https://purifai.substack.com/p/why-your-voice-assistant-waits-for",
       "created_at": "2026-07-10T20:28:54.510552",
-      "posted_at": null
+      "posted_at": "2026-07-26T21:01:32.727629"
     },
     {
       "text": "Thinking Machines just demoed a voice AI that processes audio, video, and text every 200 milliseconds \u2014 while it's still talking to you.\n\nNo turn-taking. No waiting for you to finish. A live, continuous read of whatever's happening in front of it.\n\nThe architecture is genuinely different from anything currently shipping.\n\nHere's what I'm not sure about: does removing turn-taking actually make conversation feel more natural, or does it make it feel more chaotic?\n\nHuman intuition was built around taking turns. We get uncomfortable when people talk over us, even when they're helpful.\n\nDoes real-time AI perception solve a real problem \u2014 or solve a technical limitation that our social instincts actually preferred?",
