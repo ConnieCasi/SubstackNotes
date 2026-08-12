@@ -294,7 +294,7 @@
       "source_post_title": "Anthropic Raises $30 Billion, Now Worth $380 Billion",
       "source_post_url": "https://purifai.substack.com/p/anthropic-raises-30-billion-now-worth",
       "created_at": "2026-07-05T19:32:14.254651",
-      "posted_at": null
+      "posted_at": "2026-08-12T16:57:03.182717"
     },
     {
       "text": "Used to think the big AI fundraises were mostly about research \u2014 keeping brilliant people in rooms solving hard problems.\n\nThen I looked at where the money actually goes: GPU clusters, compute contracts, chip purchases. Anthropic needs Nvidia's hardware just to *train* a single model update.\n\nIt changed how I read every AI funding announcement. The money isn't buying ideas. It's buying the electricity to run them.\n\nThat's the kind of detail Purifai exists to surface \u2014 the part that reframes everything else you're reading about AI this week.",
