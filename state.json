@@ -357,7 +357,7 @@
       "source_post_title": "Anthropic Just Dropped Agent Teams",
       "source_post_url": "https://purifai.substack.com/p/anthropic-just-dropped-agent-teams",
       "created_at": "2026-06-29T20:12:27.765444",
-      "posted_at": null
+      "posted_at": "2026-09-13T22:04:33.153605"
     },
     {
       "text": "Most people use Claude Code like a conversation. Here's why that breaks on complex projects:\n\n- One context window = one limited view of your codebase\n- As the session grows, earlier context falls out\n- Claude starts \"tunnel visioning\" on one file or function\n- The bigger the project, the worse this gets\n\nThe fix isn't prompting harder. It's architecture.\n\nAnthropic's Agent Teams give each agent its own separate context \u2014 so the team leader synthesizes a 360-degree view no single agent could hold.\n\nFull setup walkthrough here: https://purifai.substack.com/p/anthropic-just-dropped-agent-teams",
