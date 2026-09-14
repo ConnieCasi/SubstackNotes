@@ -20,7 +20,8 @@
     "https://purifai.substack.com/p/anthropic-just-dropped-agent-teams",
     "https://purifai.substack.com/p/when-is-the-right-time-to-build-superintelligenc",
     "https://purifai.substack.com/p/anthropic-raises-30-billion-now-worth",
-    "https://purifai.substack.com/p/why-your-voice-assistant-waits-for"
+    "https://purifai.substack.com/p/why-your-voice-assistant-waits-for",
+    "https://purifai.substack.com/p/the-claude-watermark-has-a-blind"
   ],
   "queue": [
     {
@@ -358,6 +359,55 @@
       "source_post_url": "https://purifai.substack.com/p/anthropic-just-dropped-agent-teams",
       "created_at": "2026-06-29T20:12:27.765444",
       "posted_at": "2026-09-13T22:04:33.153605"
+    },
+    {
+      "text": "The AI watermark designed to catch you can be erased by anyone who simply rephrases the output.",
+      "source_post_title": "The Claude Watermark Has a Blind Spot the Size of Your Ego",
+      "source_post_url": "https://purifai.substack.com/p/the-claude-watermark-has-a-blind",
+      "created_at": "2026-09-14T21:45:01.255862",
+      "posted_at": "2026-09-14T21:45:02.496446"
+    },
+    {
+      "text": "You've probably wondered if Claude is somehow marking your work without telling you.\n\nNot paranoia \u2014 that instinct is correct.\n\nAs of August, Anthropic started embedding an invisible signature into Claude's word choices. Not hidden characters. Not extra punctuation. Just a rigged coin flip inside the randomness the model already uses.\n\nThe unsettling part isn't that it exists. It's that you can't feel it. And it only works on the parts of your writing where meaning is flexible \u2014 which is also the part that sounds most like you.\n\nThe full breakdown of how this actually works (and where it quietly fails):\nhttps://purifai.substack.com/p/the-claude-watermark-has-a-blind",
+      "source_post_title": "The Claude Watermark Has a Blind Spot the Size of Your Ego",
+      "source_post_url": "https://purifai.substack.com/p/the-claude-watermark-has-a-blind",
+      "created_at": "2026-09-14T21:45:01.255878",
+      "posted_at": null
+    },
+    {
+      "text": "Here's what Anthropic's watermark can and can't tag:\n\n- Creative writing: heavily marked \u2014 too many equally valid word choices\n- Factual claims: barely tagged \u2014 one right answer leaves no room to hide a signal\n- Code: almost zero \u2014 one wrong keyword breaks the function\n- Light proofreading: mostly yours, so mostly untagged\n\nThe one thing to remember: the watermark only works where ambiguity lives.\n\nYour spreadsheet formulas and contract language? Slipping through clean.\nhttps://purifai.substack.com/p/the-claude-watermark-has-a-blind",
+      "source_post_title": "The Claude Watermark Has a Blind Spot the Size of Your Ego",
+      "source_post_url": "https://purifai.substack.com/p/the-claude-watermark-has-a-blind",
+      "created_at": "2026-09-14T21:45:01.255881",
+      "posted_at": null
+    },
+    {
+      "text": "A company signs a regulatory pledge to mark AI-generated text.\n\nSo they rig the randomness their model was already using \u2014 no added characters, no cost, nothing visible.\n\nThe loaded dice still roll every number. Nobody at the table notices.\n\nThat's not a metaphor. That's the actual mechanism Anthropic deployed globally this August, because they couldn't reliably tell which users were in the EU.\n\nWhat it means for anything you've written with Claude this year:\nhttps://purifai.substack.com/p/the-claude-watermark-has-a-blind",
+      "source_post_title": "The Claude Watermark Has a Blind Spot the Size of Your Ego",
+      "source_post_url": "https://purifai.substack.com/p/the-claude-watermark-has-a-blind",
+      "created_at": "2026-09-14T21:45:01.255883",
+      "posted_at": null
+    },
+    {
+      "text": "Hot take: AI watermarks aren't built to protect you from AI \u2014 they're built to protect companies from regulators.\n\nThe EU AI Act threatens fines up to 3% of global revenue. That's the reason Anthropic watermarks your LinkedIn draft.\n\nIt can't prove authorship in court. It can't survive a manual rewrite. It can't even tag your code.\n\nWhat it *can* do is let Anthropic check a compliance box.\n\nThe transparency narrative is real. The transparency is not.",
+      "source_post_title": "The Claude Watermark Has a Blind Spot the Size of Your Ego",
+      "source_post_url": "https://purifai.substack.com/p/the-claude-watermark-has-a-blind",
+      "created_at": "2026-09-14T21:45:01.255885",
+      "posted_at": null
+    },
+    {
+      "text": "For a long time, I assumed AI detection was a content problem \u2014 something you could solve by writing more specifically, more humanly.\n\nTurns out I had it backwards.\n\nThe watermark doesn't analyze your style. It's embedded during generation, in the coin flips Claude makes before you ever see the output. By the time you're editing, it's already there \u2014 or already gone, depending on what you asked for.\n\nWhat changed for me: I stopped thinking about AI detection as a reader's problem and started seeing it as an infrastructure problem. The tells aren't in how the text reads. They're in the probability math no one shows you.\n\nThat reframe is what Purifai is built around. If you want to understand AI at the level where decisions actually get made \u2014 not the press release level \u2014 the subscription is worth it.",
+      "source_post_title": "The Claude Watermark Has a Blind Spot the Size of Your Ego",
+      "source_post_url": "https://purifai.substack.com/p/the-claude-watermark-has-a-blind",
+      "created_at": "2026-09-14T21:45:01.255887",
+      "posted_at": null
+    },
+    {
+      "text": "The EU forced 190+ AI companies to watermark generated content. Anthropic responded by embedding the signal into Claude's word choices \u2014 not the text itself, but the randomness underneath it.\n\nHere's what I can't resolve: if a watermark can't survive a human rewrite, can't tag technical content, and can only answer \"was Claude probably involved?\" in probabilistic terms \u2014 is this actually transparency, or is it the appearance of transparency dressed up for regulators?\n\nWhere do you land on this? Meaningful first step, or compliance theater?",
+      "source_post_title": "The Claude Watermark Has a Blind Spot the Size of Your Ego",
+      "source_post_url": "https://purifai.substack.com/p/the-claude-watermark-has-a-blind",
+      "created_at": "2026-09-14T21:45:01.255888",
+      "posted_at": null
     },
     {
       "text": "Most people use Claude Code like a conversation. Here's why that breaks on complex projects:\n\n- One context window = one limited view of your codebase\n- As the session grows, earlier context falls out\n- Claude starts \"tunnel visioning\" on one file or function\n- The bigger the project, the worse this gets\n\nThe fix isn't prompting harder. It's architecture.\n\nAnthropic's Agent Teams give each agent its own separate context \u2014 so the team leader synthesizes a 360-degree view no single agent could hold.\n\nFull setup walkthrough here: https://purifai.substack.com/p/anthropic-just-dropped-agent-teams",
