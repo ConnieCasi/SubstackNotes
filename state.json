@@ -372,7 +372,7 @@
       "source_post_title": "The Claude Watermark Has a Blind Spot the Size of Your Ego",
       "source_post_url": "https://purifai.substack.com/p/the-claude-watermark-has-a-blind",
       "created_at": "2026-09-14T21:45:01.255878",
-      "posted_at": null
+      "posted_at": "2026-09-15T20:57:41.855398"
     },
     {
       "text": "Here's what Anthropic's watermark can and can't tag:\n\n- Creative writing: heavily marked \u2014 too many equally valid word choices\n- Factual claims: barely tagged \u2014 one right answer leaves no room to hide a signal\n- Code: almost zero \u2014 one wrong keyword breaks the function\n- Light proofreading: mostly yours, so mostly untagged\n\nThe one thing to remember: the watermark only works where ambiguity lives.\n\nYour spreadsheet formulas and contract language? Slipping through clean.\nhttps://purifai.substack.com/p/the-claude-watermark-has-a-blind",
