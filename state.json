@@ -393,7 +393,7 @@
       "source_post_title": "The Claude Watermark Has a Blind Spot the Size of Your Ego",
       "source_post_url": "https://purifai.substack.com/p/the-claude-watermark-has-a-blind",
       "created_at": "2026-09-14T21:45:01.255885",
-      "posted_at": null
+      "posted_at": "2026-09-26T20:31:48.567920"
     },
     {
       "text": "For a long time, I assumed AI detection was a content problem \u2014 something you could solve by writing more specifically, more humanly.\n\nTurns out I had it backwards.\n\nThe watermark doesn't analyze your style. It's embedded during generation, in the coin flips Claude makes before you ever see the output. By the time you're editing, it's already there \u2014 or already gone, depending on what you asked for.\n\nWhat changed for me: I stopped thinking about AI detection as a reader's problem and started seeing it as an infrastructure problem. The tells aren't in how the text reads. They're in the probability math no one shows you.\n\nThat reframe is what Purifai is built around. If you want to understand AI at the level where decisions actually get made \u2014 not the press release level \u2014 the subscription is worth it.",
