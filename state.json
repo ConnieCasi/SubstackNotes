@@ -422,7 +422,7 @@
       "source_post_title": "Your ChatGPT Text Has No Watermark At All",
       "source_post_url": "https://purifai.substack.com/p/your-chatgpt-text-has-no-watermark",
       "created_at": "2026-10-08T23:02:52.003109",
-      "posted_at": null
+      "posted_at": "2026-10-13T22:42:28.818744"
     },
     {
       "text": "Google has been watermarking Gemini's text since 2024. Almost no one noticed.\n\nHere's what that actually means:\n\n- SynthID-Text, Google's method, is now the technique both Gemini and Claude use\n- Google published the research in Nature and extended it to images, audio, and video\n- Anthropic's \"new\" watermark made headlines in 2026 \u2014 two years after Google's version quietly shipped\n\nThe thing to remember: Google didn't announce this loudly. They just built it.\n\nThe tradeoffs buried in Google's own research paper are worth knowing about:\n\nhttps://purifai.substack.com/p/your-chatgpt-text-has-no-watermark",
