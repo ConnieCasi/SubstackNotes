@@ -429,7 +429,7 @@
       "source_post_title": "Your ChatGPT Text Has No Watermark At All",
       "source_post_url": "https://purifai.substack.com/p/your-chatgpt-text-has-no-watermark",
       "created_at": "2026-10-08T23:02:52.003111",
-      "posted_at": null
+      "posted_at": "2026-10-21T21:29:21.027706"
     },
     {
       "text": "OpenAI already watermarks the images ChatGPT generates. It has reportedly had the capability to watermark text for years.\n\nIt hasn't shipped it.\n\nThe reason attributed internally: concerns about false positives, and the fear of looking worse than competitors who don't watermark at all.\n\nThat's not a technical problem. That's a business decision dressed up as one.",
