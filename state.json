@@ -436,7 +436,7 @@
       "source_post_title": "Your ChatGPT Text Has No Watermark At All",
       "source_post_url": "https://purifai.substack.com/p/your-chatgpt-text-has-no-watermark",
       "created_at": "2026-10-08T23:02:52.003113",
-      "posted_at": null
+      "posted_at": "2026-10-26T21:18:45.066610"
     },
     {
       "text": "Hot take: AI watermarking is already obsolete before it became standard.\n\nEveryone's talking about whether ChatGPT will finally ship text watermarks. But the real problem is that there's no universal checker \u2014 images have C2PA as an industry standard, text has nothing equivalent.\n\nEven if OpenAI ships tomorrow, a document that used ChatGPT, Claude, and Gemini would need three separate detection keys from three separate companies.\n\nOne of those keys doesn't exist yet. Coordination across competitors won't happen fast. So by the time the regulation actually lands, the compliance story will still be: it's complicated.",
