@@ -450,7 +450,7 @@
       "source_post_title": "Your ChatGPT Text Has No Watermark At All",
       "source_post_url": "https://purifai.substack.com/p/your-chatgpt-text-has-no-watermark",
       "created_at": "2026-10-08T23:02:52.003115",
-      "posted_at": null
+      "posted_at": "2026-11-03T22:11:25.819612"
     },
     {
       "text": "Watermarking AI text involves a real tradeoff that Google's own research paper admits: the stronger the watermark signal, the more detectable it is \u2014 but the more your answers cluster together when you ask the same question repeatedly.\n\nBoth Google and Anthropic chose the setting that protects output quality. Neither uses the stronger detection setting in production.\n\nSo here's what I'm genuinely uncertain about:\n\nIf making AI content detectable requires visibly degrading the output quality, should companies be required to accept that tradeoff \u2014 or does detection only matter if it's invisible enough that people keep using the tool?",
