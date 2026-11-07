@@ -471,7 +471,7 @@
       "source_post_title": "Anthropic Just Dropped Agent Teams",
       "source_post_url": "https://purifai.substack.com/p/anthropic-just-dropped-agent-teams",
       "created_at": "2026-06-29T20:12:27.765449",
-      "posted_at": null
+      "posted_at": "2026-11-07T21:53:16.706622"
     },
     {
       "text": "Hot take: giving AI a bigger context window is the wrong solution to the wrong problem.\n\nEveryone's chasing longer memory like that's what makes AI useful on complex work. But the real issue is focus \u2014 one model trying to see everything sees nothing deeply.\n\nMultiple agents, each with their own context and a specific slice of the problem, will outperform one giant model with perfect memory.\n\nAnthropic just validated this with Agent Teams. Parallel, specialized, coordinated \u2014 not just longer.",
