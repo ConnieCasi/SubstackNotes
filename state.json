@@ -478,7 +478,7 @@
       "source_post_title": "Anthropic Just Dropped Agent Teams",
       "source_post_url": "https://purifai.substack.com/p/anthropic-just-dropped-agent-teams",
       "created_at": "2026-06-29T20:12:27.765451",
-      "posted_at": null
+      "posted_at": "2026-11-08T22:59:24.926044"
     },
     {
       "text": "For a long time, I thought careful prompting was the answer to Claude losing track of big projects.\n\nAdd memory files. Summarize earlier context manually. Re-paste the relevant code. I treated it like a discipline problem \u2014 if I was just more organized, the AI would stay on track.\n\nI was wrong. It was never a prompting problem. It was a structural one. One context window cannot hold a large codebase and stay coherent. That's physics, not sloppiness.\n\nWhat actually changes this is multiple agents, each with their own isolated context, working a specific problem in parallel \u2014 not one agent trying to carry everything.\n\nThat's the kind of structural clarity Purifai exists to give you. If you want to understand AI tools at that level \u2014 not just what's new, but why it matters \u2014 the newsletter is worth subscribing to.",
