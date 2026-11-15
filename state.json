@@ -485,7 +485,7 @@
       "source_post_title": "Anthropic Just Dropped Agent Teams",
       "source_post_url": "https://purifai.substack.com/p/anthropic-just-dropped-agent-teams",
       "created_at": "2026-06-29T20:12:27.765454",
-      "posted_at": null
+      "posted_at": "2026-11-15T21:27:25.243291"
     },
     {
       "text": "Anthropic's Agent Teams let multiple Claude instances work a codebase simultaneously \u2014 each with its own context, coordinated by a team leader that synthesizes their reports.\n\nThe promise is real: parallel agents, no tunnel vision, comprehensive coverage of large codebases.\n\nBut here's the question I keep turning over: when the \"team leader\" is also an AI synthesizing other AI outputs, how do you know where the reasoning went wrong?\n\nDo you trust the final report \u2014 or does parallel AI work just give you more confident mistakes?",
